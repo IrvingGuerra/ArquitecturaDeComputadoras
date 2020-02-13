@@ -1,0 +1,19 @@
+#Start recording tcl command: 3/1/2018 10:39:58
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00.ldf"
+prj_run Export -impl mult8bit00 -task Jedecgen
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src add -exclude "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src enable "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_run Export -impl mult8bit00 -task Jedecgen
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_project close
+pgr_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/1/2018 11:06:56

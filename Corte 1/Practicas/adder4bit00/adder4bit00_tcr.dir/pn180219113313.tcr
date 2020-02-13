@@ -1,0 +1,14 @@
+#Start recording tcl command: 2/19/2018 10:30:38
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/adder4bit00.ldf"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/and00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/packageha00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/ha00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/or00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/packagefa00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/fa00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/xnor00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/packageadder4bit00.vhd"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/xor00.vhd"
+prj_src remove "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/adder4bit00/xor00a.vhdl"
+#Stop recording: 2/19/2018 11:33:13

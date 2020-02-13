@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/1/2018 10:33:09
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/mult8bit00; Project name: mult8bit00
+prj_project new -name "mult8bit00" -impl "mult8bit00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/and00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/fa00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/ha00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/or00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/packagefa00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/packageha00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/packagemult8bit00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/topmult8bit00.vhd" "E:/Archivos/ESCOM/Arquitectura/Practicas/P9/mult8bit00/xor00.vhd"
+prj_run Export -impl mult8bit00 -task Jedecgen
+#Stop recording: 3/1/2018 10:37:55

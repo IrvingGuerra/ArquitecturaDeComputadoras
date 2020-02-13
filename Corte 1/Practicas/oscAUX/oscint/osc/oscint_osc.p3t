@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "oscint_osc.log"
+-o "oscint_osc.csv"
+-pr "oscint_osc.prf"

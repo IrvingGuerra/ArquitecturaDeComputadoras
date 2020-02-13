@@ -1,0 +1,6 @@
+#Start recording tcl command: 4/4/2018 09:43:25
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/osc00; Project name: osc00
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/osc00/osc00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 4/4/2018 09:44:54

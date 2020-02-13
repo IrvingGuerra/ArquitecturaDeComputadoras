@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/5/2018 10:45:10
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/oscint; Project name: oscint
+prj_project new -name "oscint" -impl "osc" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/oscint/osc00.vhdl"
+prj_run Export -impl osc -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 3/5/2018 11:29:51

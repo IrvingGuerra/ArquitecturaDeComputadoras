@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/5/2018 11:30:49
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/oscint; Project name: oscint
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/oscint/oscint.ldf"
+prj_project close
+#Stop recording: 3/5/2018 11:31:01

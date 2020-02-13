@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd&quot;:16:43:16:46|Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd&quot;:16:49:16:52|Signal sc07 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Signal sc07 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd&quot;:17:43:17:46|Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd&quot;:17:49:17:52|Signal ss07 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>E:\Archivos\ESCOM\Arquitectura\Practicas\P9\mult8bit00\topmult8bit00.vhd</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Signal ss07 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

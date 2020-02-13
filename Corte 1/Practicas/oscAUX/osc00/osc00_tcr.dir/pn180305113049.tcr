@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/5/2018 11:29:51
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/osc00; Project name: osc00
+prj_project new -name "osc00" -impl "osc" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/oscAUX/osc00/osc00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/5/2018 11:30:49

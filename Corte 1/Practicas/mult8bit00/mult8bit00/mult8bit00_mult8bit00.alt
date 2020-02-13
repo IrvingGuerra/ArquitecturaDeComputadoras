@@ -1,0 +1,40 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Mar 01 10:57:15 2018 *
+NOTE DESIGN NAME: topmult8bit00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Rm[0] : 127 : out *
+NOTE PINS Am[0] : 49 : in *
+NOTE PINS Rm[15] : 110 : out *
+NOTE PINS Rm[14] : 109 : out *
+NOTE PINS Rm[13] : 112 : out *
+NOTE PINS Rm[12] : 111 : out *
+NOTE PINS Rm[11] : 114 : out *
+NOTE PINS Rm[10] : 113 : out *
+NOTE PINS Rm[9] : 117 : out *
+NOTE PINS Rm[8] : 115 : out *
+NOTE PINS Rm[7] : 120 : out *
+NOTE PINS Rm[6] : 119 : out *
+NOTE PINS Rm[5] : 122 : out *
+NOTE PINS Rm[4] : 121 : out *
+NOTE PINS Rm[3] : 126 : out *
+NOTE PINS Rm[2] : 125 : out *
+NOTE PINS Rm[1] : 128 : out *
+NOTE PINS Bm[7] : 43 : in *
+NOTE PINS Bm[6] : 45 : in *
+NOTE PINS Bm[5] : 42 : in *
+NOTE PINS Bm[4] : 44 : in *
+NOTE PINS Bm[3] : 39 : in *
+NOTE PINS Bm[2] : 41 : in *
+NOTE PINS Bm[1] : 38 : in *
+NOTE PINS Bm[0] : 40 : in *
+NOTE PINS Am[7] : 54 : in *
+NOTE PINS Am[6] : 56 : in *
+NOTE PINS Am[5] : 52 : in *
+NOTE PINS Am[4] : 55 : in *
+NOTE PINS Am[3] : 48 : in *
+NOTE PINS Am[2] : 50 : in *
+NOTE PINS Am[1] : 47 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *
