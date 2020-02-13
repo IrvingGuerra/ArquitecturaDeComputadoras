@@ -1,0 +1,149 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Jun  6 08:50:01 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "toplcd00"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|OSC_INT_inferred_clock     osc00|OSC_INT_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+div00|outdiv_derived_clock       System                           |     480.769          |     No paths         |     480.769          |     No paths                         
+div00|outdiv_derived_clock       div00|outdiv_derived_clock       |     480.769          |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:EN0
+p:ENled0
+p:RS0
+p:RW0
+p:cdiv00[0]
+p:cdiv00[1]
+p:cdiv00[2]
+p:cdiv00[3]
+p:cdiv00[4]
+p:inadc00[0]
+p:inadc00[1]
+p:inadc00[2]
+p:inadc00[3]
+p:inadc00[4]
+p:inadc00[5]
+p:inadc00[6]
+p:inadc00[7]
+p:out7seg00[0]
+p:out7seg00[1]
+p:out7seg00[2]
+p:out7seg00[3]
+p:out7seg00[4]
+p:out7seg00[5]
+p:out7seg00[6]
+p:outFlagconfig0
+p:outFlagcontdata0
+p:outFlagdata0
+p:outcontconfig0[0]
+p:outcontconfig0[1]
+p:outcontconfig0[2]
+p:outcontconfig0[3]
+p:outcontconfig0[4]
+p:outcontdata0[0]
+p:outcontdata0[1]
+p:outcontdata0[2]
+p:outcontdata0[3]
+p:outcontdata0[4]
+p:outcr00[0]
+p:outcr00[1]
+p:outcr00[2]
+p:outcr00[3]
+p:outfan00[0]
+p:outfan00[1]
+p:outlevel00[0]
+p:outlevel00[1]
+p:outlevel00[2]
+p:outlevel00[3]
+p:outlevel00[4]
+p:outlevel00[5]
+p:outlevel00[6]
+p:outlevel00[7]
+p:outlevel00[8]
+p:outlevel00[9]
+p:outlevel00[10]
+p:outlevel00[11]
+p:outlevel00[12]
+p:outlevel00[13]
+p:outlevel00[14]
+p:outlevel00[15]
+p:outlevel00[16]
+p:outlevel00[17]
+p:outlevel00[18]
+p:outlevel00[19]
+p:outlevel00[20]
+p:outlevel00[21]
+p:outlevel00[22]
+p:outlevel00[23]
+p:outword0[0]
+p:outword0[1]
+p:outword0[2]
+p:outword0[3]
+p:outword0[4]
+p:outword0[5]
+p:outword0[6]
+p:outword0[7]
+p:outwordled0[0]
+p:outwordled0[1]
+p:outwordled0[2]
+p:outwordled0[3]
+p:outwordled0[4]
+p:outwordled0[5]
+p:outwordled0[6]
+p:outwordled0[7]
+p:reset0
+p:soutFlagcontconfig0
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

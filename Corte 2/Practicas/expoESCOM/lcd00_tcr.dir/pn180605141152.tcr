@@ -1,0 +1,46 @@
+#Start recording tcl command: 6/5/2018 08:50:22
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/expoESCOM; Project name: lcd00
+C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/teclado00
+teclado00
+#Start recording tcl command: 6/5/2018 14:11:51
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/teclado00; Project name: teclado00
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/expoESCOM/lcd00.ldf"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/expoESCOM/contring00.vhdl"
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/expoESCOM/decodifica00.vhdl"
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+launch_synplify_prj lcd00
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_src remove "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/expoESCOM/hotWheel00.vhdl"
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_run Export -impl lcd00 -task Jedecgen
+prj_project save
+prj_project close
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/teclado00/teclado00.ldf"
+#Stop recording: 6/5/2018 14:11:52

@@ -1,0 +1,11 @@
+#Start recording tcl command: 5/28/2018 10:40:51
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/lcd00_renglon; Project name: lcd00
+prj_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/lcd00_renglon/lcd00.ldf"
+pgr_project open "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/lcd00_renglon/lcd00/lcd00.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/2/Practicas/lcd00_renglon/lcd00/lcd00.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 5/28/2018 10:45:24

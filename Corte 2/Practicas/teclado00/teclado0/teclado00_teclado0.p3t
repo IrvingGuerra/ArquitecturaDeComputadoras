@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "teclado00_teclado0.log"
+-o "teclado00_teclado0.csv"
+-pr "teclado00_teclado0.prf"

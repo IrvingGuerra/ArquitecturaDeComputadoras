@@ -1,0 +1,20 @@
+#Start recording tcl command: 4/20/2018 11:39:21
+#Project Location: C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00; Project name: teclado00
+prj_project new -name "teclado00" -impl "teclado0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/osc00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/packagekey00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/packageosc00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/topkey00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/toposc00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/coder00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/contring00.vhdl" "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/div00.vhdl"
+prj_run Export -impl teclado0 -task Jedecgen
+prj_run Export -impl teclado0 -task Jedecgen
+prj_run Export -impl teclado0 -task Jedecgen
+prj_run Export -impl teclado0 -task Jedecgen
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/teclado0/teclado0.xcf"
+prj_src add -exclude "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/teclado0/teclado0.xcf"
+prj_src enable "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/teclado0/teclado0.xcf"
+pgr_program run
+prj_run Export -impl teclado0 -task Jedecgen
+pgr_program run
+prj_run Export -impl teclado0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/Jorge Castillo/Documents/ESCOM/5/Arquitectura/teclado00/teclado0/teclado0.xcf"
+pgr_project close
+#Stop recording: 4/20/2018 12:50:02

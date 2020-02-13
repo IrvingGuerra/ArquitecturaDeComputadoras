@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>L00/D00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>L00/D00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\toplcd00.vhdl&quot;:28:7:28:15|Signal souflagcc is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\toplcd00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Signal souflagcc is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:28:11:28:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:47:10:47:14|Referenced variable inend is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Referenced variable inend is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:46:10:46:14|Referenced variable inrsd is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Referenced variable inrsd is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:45:10:45:14|Referenced variable inrwd is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Referenced variable inrwd is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:42:10:42:14|Referenced variable inenc is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Referenced variable inenc is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:41:10:41:14|Referenced variable inrsc is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Referenced variable inrsc is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:40:10:40:14|Referenced variable inrwc is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Referenced variable inrwc is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:30:9:30:16|Referenced variable resetmux is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Referenced variable resetmux is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl&quot;:37:7:37:21|Referenced variable inflagmuxconfig is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdmux00.vhdl</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Referenced variable inflagmuxconfig is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcddata00.vhdl&quot;:53:3:53:4|Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcddata00.vhdl</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdconfig00.vhdl&quot;:25:4:25:5|Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\lcd00_renglon\lcdconfig00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\lcdcontdata00.vhdl&quot;:25:4:25:5|Removing sequential instance L03.outFlagcd because it is equivalent to instance L03.ENcd. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\lcdcontdata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance L03.outFlagcd because it is equivalent to instance L03.ENcd. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\div00.vhdl&quot;:20:4:20:5|Found inferred clock osc00|OSC_INT_inferred_clock which controls 25 sequential elements including L00.D01.sdiv[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\div00.vhdl</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock osc00|OSC_INT_inferred_clock which controls 25 sequential elements including L00.D01.sdiv[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\lcddata00.vhdl&quot;:67:20:67:27|ROM outwordd_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\lcddata00.vhdl</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>ROM outwordd_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\lcddata00.vhdl&quot;:67:20:67:27|ROM outwordd_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\jorge castillo\documents\escom\5\arquitectura\2\practicas\lcd00_renglon\lcddata00.vhdl</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>ROM outwordd_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|OSC_INT_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:L00.D00.OSC_INT&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|OSC_INT_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:L00.D00.OSC_INT&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

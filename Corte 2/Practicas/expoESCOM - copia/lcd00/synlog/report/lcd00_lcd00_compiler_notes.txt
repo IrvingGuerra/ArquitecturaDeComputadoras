@@ -1,0 +1,26 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toplcd00.vhdl":7:7:7:14|Top entity is set to toplcd00.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toplcd00.vhdl":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\decodifica00.vhdl":6:7:6:18|Synthesizing work.decodifica00.decodifica0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcddata00.vhdl":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcddata00.vhdl":39:3:39:4|Register bit outwordd(7) is always 0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":52:6:52:14|Removing redundant assignment.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontconfig00.vhdl":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontconfig00.vhdl":31:6:31:14|Removing redundant assignment.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\osc00.vhdl":9:7:9:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Register bit RSc is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Register bit RWc is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Register bit outWordc(6) is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":25:4:25:5|Register bit outcontcd(4) is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":25:4:25:5|Register bit RWcd is always 0.
+@N|Running in 64-bit mode
+

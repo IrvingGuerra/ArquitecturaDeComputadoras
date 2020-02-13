@@ -1,0 +1,527 @@
+#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
+#install: C:\lscc\diamond\3.9\synpbase
+#OS: Windows 8 6.2
+#Hostname: DIEGO
+
+# Wed Nov 15 00:07:28 2017
+
+#Implementation: lcd00
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdmux00.vhdl":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CL189 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":37:1:37:2|Register bit outFlagdd is always 0.
+@N: CL189 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":37:1:37:2|Register bit outworddd(4) is always 0.
+@N: CL189 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":37:1:37:2|Register bit outworddd(7) is always 0.
+@W: CL260 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":37:1:37:2|Pruning register bit 7 of outworddd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":37:1:37:2|Pruning register bit 4 of outworddd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdcontdata00.vhdl":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CL189 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdcontdata00.vhdl":25:4:25:5|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdcontdata00.vhdl":25:4:25:5|Register bit RWcd is always 0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdcontconfig00.vhdl":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdcontconfig00.vhdl":32:6:32:14|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\osc00.vhdl":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcd00.toplcd0
+@W: CL138 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Removing register 'RWc' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Register bit comandoc(6) is always 0.
+@W: CL260 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Pruning register bit 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdmux00.vhdl":13:4:13:12|Input inFlagdlm is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 42MB peak: 44MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 00:07:31 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 00:07:33 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 3MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 00:07:33 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 00:07:35 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Nov 15 00:07:36 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:06:13
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcd00\lcd00_lcd00_scck.rpt 
+Printing clock  summary report in "C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcd00\lcd00_lcd00_scck.rpt" file 
+@N: MF249 |Running in 32-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 65MB peak: 65MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 65MB peak: 67MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toplcd00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+
+Clock Summary
+*****************
+
+Start                            Requested     Requested     Clock                                           Clock                   Clock
+Clock                            Frequency     Period        Type                                            Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------
+div00|outdiv_derived_clock       2.1 MHz       480.769       derived (from osc00|OSC_INT_inferred_clock)     Inferred_clkgroup_0     39   
+osc00|OSC_INT_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     25   
+==========================================================================================================================================
+
+@W: MT529 :"c:\users\diego eg\desktop\arqpracticas\lcd\div00.vhdl":20:4:20:5|Found inferred clock osc00|OSC_INT_inferred_clock which controls 25 sequential elements including L00.D01.sdiv[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 39MB peak: 85MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:01s cputime
+# Wed Nov 15 00:07:43 2017
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Nov 15 00:07:43 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:06:13
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@N: MF249 |Running in 32-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 57MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 57MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 65MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 67MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 82MB peak: 85MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcddata00.vhdl":49:22:49:29|ROM outworddd_3[6:5] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcddata00.vhdl":49:22:49:29|ROM outworddd_3[3:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcddata00.vhdl":49:22:49:29|ROM outworddd_3[6:5] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcddata00.vhdl":49:22:49:29|Found ROM .delname. (in view: work.lcddata00(lcddata0)) with 32 words by 2 bits.
+@W: FA239 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcddata00.vhdl":49:22:49:29|ROM outworddd_3[3:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcddata00.vhdl":49:22:49:29|Found ROM .delname. (in view: work.lcddata00(lcddata0)) with 32 words by 4 bits.
+@W: BN132 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":30:4:30:7|Removing user instance L03.pcd.outFlagcd_3 because it is equivalent to instance L03.pcd.ENcd_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":25:4:25:5|Removing sequential instance L03.outFlagcd because it is equivalent to instance L03.ENcd. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 82MB peak: 85MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 82MB peak: 85MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   472.80ns		  87 /        63
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontconfig00.vhdl":21:4:21:5|Boundary register L01.outcontcc_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontconfig00.vhdl":21:4:21:5|Boundary register L01.outcontcc_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontconfig00.vhdl":21:4:21:5|Boundary register L01.outcontcc_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontconfig00.vhdl":21:4:21:5|Boundary register L01.outcontcc_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontconfig00.vhdl":21:4:21:5|Boundary register L01.outcontcc_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.ENlm.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.RSlm.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_7_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_6_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_5_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdmux00.vhdl":32:4:32:5|Boundary register L05.outwordlm_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":25:4:25:5|Boundary register L03.outcd_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":25:4:25:5|Boundary register L03.outcd_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":25:4:25:5|Boundary register L03.outcd_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":25:4:25:5|Boundary register L03.outcd_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdcontdata00.vhdl":25:4:25:5|Boundary register L03.outcd_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\diego eg\desktop\arqpracticas\lcd\lcdconfig00.vhdl":25:4:25:5|Boundary register L02.outFlagc.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 84MB peak: 85MB)
+
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 63 clock pin(s) of sequential element(s)
+0 instances converted, 63 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       L00.D00.OSCInst0     OSCH                   63         L05_ENlmio          Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+===========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 63MB peak: 85MB)
+
+Writing Analyst data base C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcd00\synwork\lcd00_lcd00_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 85MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcd00\lcd00_lcd00.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 86MB peak: 88MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 87MB peak: 88MB)
+
+@W: MT420 |Found inferred clock osc00|OSC_INT_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:L00.D00.OSC_INT"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Nov 15 00:07:53 2017
+#
+
+
+Top view:               toplcd00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 471.833
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|OSC_INT_inferred_clock     2.1 MHz       111.9 MHz     480.769       8.936         471.833     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|OSC_INT_inferred_clock  osc00|OSC_INT_inferred_clock  |  480.769     471.833  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|OSC_INT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                          Arrival            
+Instance             Reference                        Type        Pin     Net          Time        Slack  
+                     Clock                                                                                
+----------------------------------------------------------------------------------------------------------
+L00.D01.sdiv[16]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[16]     1.044       471.833
+L00.D01.sdiv[17]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[17]     1.044       471.833
+L00.D01.sdiv[22]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[22]     1.180       472.714
+L00.D01.sdiv[23]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[23]     1.180       472.786
+L00.D01.sdiv[21]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[21]     1.148       472.818
+L00.D01.sdiv[18]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[18]     1.108       472.858
+L00.D01.sdiv[19]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[19]     1.108       472.858
+L00.D01.sdiv[20]     osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[20]     1.108       472.858
+L00.D01.sdiv[0]      osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[0]      0.972       475.027
+L00.D01.sdiv[1]      osc00|OSC_INT_inferred_clock     FD1S3IX     Q       sdiv[1]      0.972       475.170
+==========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                              Required            
+Instance             Reference                        Type        Pin     Net              Time         Slack  
+                     Clock                                                                                     
+---------------------------------------------------------------------------------------------------------------
+L00.D01.sdiv[23]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[23]     480.664      471.833
+L00.D01.sdiv[21]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[21]     480.664      471.976
+L00.D01.sdiv[22]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[22]     480.664      471.976
+L00.D01.sdiv[19]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[19]     480.664      472.119
+L00.D01.sdiv[20]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[20]     480.664      472.119
+L00.D01.sdiv[17]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[17]     480.664      472.262
+L00.D01.sdiv[18]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[18]     480.664      472.262
+L00.D01.sdiv[15]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[15]     480.664      472.404
+L00.D01.sdiv[16]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[16]     480.664      472.404
+L00.D01.sdiv[13]     osc00|OSC_INT_inferred_clock     FD1S3IX     D       un2_sdiv[13]     480.664      472.547
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      8.831
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     471.833
+
+    Number of logic level(s):                16
+    Starting point:                          L00.D01.sdiv[16] / Q
+    Ending point:                            L00.D01.sdiv[23] / D
+    The start point is clocked by            osc00|OSC_INT_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|OSC_INT_inferred_clock [rising] on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+L00.D01.sdiv[16]                            FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[16]                                    Net          -        -       -         -           2         
+L00.D01.un1_outdiv_0_sqmuxa_1_i_o3_1[0]     ORCALUT4     A        In      0.000     1.044       -         
+L00.D01.un1_outdiv_0_sqmuxa_1_i_o3_1[0]     ORCALUT4     Z        Out     1.089     2.133       -         
+un1_outdiv_0_sqmuxa_1_i_o3_1[0]             Net          -        -       -         -           2         
+L00.D01.un1_outdiv_0_sqmuxa_1_i_a6[0]       ORCALUT4     C        In      0.000     2.133       -         
+L00.D01.un1_outdiv_0_sqmuxa_1_i_a6[0]       ORCALUT4     Z        Out     1.017     3.149       -         
+un1_outdiv_0_sqmuxa_1_i_a6[0]               Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_0_0_RNO                ORCALUT4     D        In      0.000     3.149       -         
+L00.D01.un2_sdiv_cry_0_0_RNO                ORCALUT4     Z        Out     1.017     4.166       -         
+N_40_i                                      Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_0_0                    CCU2D        B0       In      0.000     4.166       -         
+L00.D01.un2_sdiv_cry_0_0                    CCU2D        COUT     Out     1.545     5.711       -         
+un2_sdiv_cry_0                              Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_1_0                    CCU2D        CIN      In      0.000     5.711       -         
+L00.D01.un2_sdiv_cry_1_0                    CCU2D        COUT     Out     0.143     5.854       -         
+un2_sdiv_cry_2                              Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_3_0                    CCU2D        CIN      In      0.000     5.854       -         
+L00.D01.un2_sdiv_cry_3_0                    CCU2D        COUT     Out     0.143     5.996       -         
+un2_sdiv_cry_4                              Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_5_0                    CCU2D        CIN      In      0.000     5.996       -         
+L00.D01.un2_sdiv_cry_5_0                    CCU2D        COUT     Out     0.143     6.139       -         
+un2_sdiv_cry_6                              Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_7_0                    CCU2D        CIN      In      0.000     6.139       -         
+L00.D01.un2_sdiv_cry_7_0                    CCU2D        COUT     Out     0.143     6.282       -         
+un2_sdiv_cry_8                              Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_9_0                    CCU2D        CIN      In      0.000     6.282       -         
+L00.D01.un2_sdiv_cry_9_0                    CCU2D        COUT     Out     0.143     6.425       -         
+un2_sdiv_cry_10                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_11_0                   CCU2D        CIN      In      0.000     6.425       -         
+L00.D01.un2_sdiv_cry_11_0                   CCU2D        COUT     Out     0.143     6.567       -         
+un2_sdiv_cry_12                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_13_0                   CCU2D        CIN      In      0.000     6.567       -         
+L00.D01.un2_sdiv_cry_13_0                   CCU2D        COUT     Out     0.143     6.710       -         
+un2_sdiv_cry_14                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_15_0                   CCU2D        CIN      In      0.000     6.710       -         
+L00.D01.un2_sdiv_cry_15_0                   CCU2D        COUT     Out     0.143     6.853       -         
+un2_sdiv_cry_16                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_17_0                   CCU2D        CIN      In      0.000     6.853       -         
+L00.D01.un2_sdiv_cry_17_0                   CCU2D        COUT     Out     0.143     6.996       -         
+un2_sdiv_cry_18                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_19_0                   CCU2D        CIN      In      0.000     6.996       -         
+L00.D01.un2_sdiv_cry_19_0                   CCU2D        COUT     Out     0.143     7.139       -         
+un2_sdiv_cry_20                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_cry_21_0                   CCU2D        CIN      In      0.000     7.139       -         
+L00.D01.un2_sdiv_cry_21_0                   CCU2D        COUT     Out     0.143     7.282       -         
+un2_sdiv_cry_22                             Net          -        -       -         -           1         
+L00.D01.un2_sdiv_s_23_0                     CCU2D        CIN      In      0.000     7.282       -         
+L00.D01.un2_sdiv_s_23_0                     CCU2D        S0       Out     1.549     8.831       -         
+un2_sdiv[23]                                Net          -        -       -         -           1         
+L00.D01.sdiv[23]                            FD1S3IX      D        In      0.000     8.831       -         
+==========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 87MB peak: 88MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 87MB peak: 88MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 63 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       40
+
+
+Details:
+CCU2D:          13
+FD1P3AX:        10
+FD1P3IX:        22
+FD1P3JX:        4
+FD1S3AX:        1
+FD1S3IX:        24
+GSR:            1
+IB:             6
+OB:             34
+OFS1P3IX:       2
+ORCALUT4:       85
+OSCH:           1
+PFUMX:          3
+PUR:            1
+VHI:            7
+VLO:            8
+false:          1
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 26MB peak: 88MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:02s cputime
+# Wed Nov 15 00:07:53 2017
+
+###########################################################]

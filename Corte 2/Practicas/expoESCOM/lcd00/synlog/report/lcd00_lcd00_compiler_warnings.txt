@@ -1,0 +1,22 @@
+@W: CD638 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\toplcd00.vhdl":36:7:36:15|Signal souflagcc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\toplcd00.vhdl":42:7:42:13|Signal auxcont is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\toplcd00.vhdl":43:7:43:14|Signal auxiliar is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CG296 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\decodifica00.vhdl":204:11:204:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\decodifica00.vhdl":211:15:211:22|Referenced variable unidades is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\decodifica00.vhdl":209:15:209:21|Referenced variable decenas is not in sensitivity list.
+@W: CL117 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\decodifica00.vhdl":206:2:206:5|Latch generated from process for signal out7seg0(6 downto 0); possible missing assignment in an if or case statement.
+@W: CL279 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\contring00.vhdl":18:4:18:5|Pruning register bits 3 to 1 of sshift(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG296 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":28:11:28:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":47:10:47:14|Referenced variable inend is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":46:10:46:14|Referenced variable inrsd is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":45:10:45:14|Referenced variable inrwd is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":42:10:42:14|Referenced variable inenc is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":41:10:41:14|Referenced variable inrsc is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":40:10:40:14|Referenced variable inrwc is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":30:9:30:16|Referenced variable resetmux is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdmux00.vhdl":37:7:37:21|Referenced variable inflagmuxconfig is not in sensitivity list.
+@W: CL260 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcddata00.vhdl":39:3:39:4|Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL260 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdconfig00.vhdl":25:4:25:5|Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM\lcdcontdata00.vhdl":25:4:25:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

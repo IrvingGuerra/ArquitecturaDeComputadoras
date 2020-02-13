@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\topkey00.vhdl":33:2:33:4|Port inflagc of entity work.coder00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

@@ -1,0 +1,39 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-7VBFQ3A1
+
+# Fri Apr 20 11:43:24 2018
+
+#Implementation: teclado0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\topkey00.vhdl":7:7:7:14|Top entity is set to topkey00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\topkey00.vhdl":7:7:7:14|Synthesizing work.topkey00.topkey0.
+@W: CD276 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\coder00.vhdl":11:4:11:6|Map for port enc of component coder00 not found
+@W: CD276 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\coder00.vhdl":12:4:12:10|Map for port inflagc of component coder00 not found
+@W: CD276 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\coder00.vhdl":15:4:15:11|Map for port outcontc of component coder00 not found
+@W: CD276 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\coder00.vhdl":17:4:17:11|Map for port outflagc of component coder00 not found
+@W: CD730 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\topkey00.vhdl":33:2:33:4|Component declaration has 4 ports but entity declares 8 ports
+@W: CD326 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\topkey00.vhdl":33:2:33:4|Port outflagc of entity work.coder00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\teclado00\topkey00.vhdl":33:2:33:4|Port inflagc of entity work.coder00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+Synthesis failed
+1 errors during synthesis
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 20 11:43:26 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 20 11:43:26 2018
+
+###########################################################]

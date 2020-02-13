@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toprom00  -multisrs  "C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\rom00\rom\synwork\rom00_rom_comp.srs"  -osyn  "C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\rom00\rom\synwork\rom00_rom_mult.srs"  -log  "C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\rom00\rom\synlog\rom00_rom_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toprom00 -multisrs "C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\rom00\rom\synwork\rom00_rom_comp.srs" -osyn "C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\rom00\rom\synwork\rom00_rom_mult.srs" -log "C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\rom00\rom\synlog\rom00_rom_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\rom00_rom_comp.srs|io:i|time:1525366081|size:8370|exec:0|csum:07EAEDB433372D27C162A880D1707FCF
+file:..\synwork\rom00_rom_mult.srs|io:o|time:1525366082|size:3147|exec:0|csum:
+file:..\synlog\rom00_rom_multi_srs_gen.srr|io:o|time:1525366082|size:529|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

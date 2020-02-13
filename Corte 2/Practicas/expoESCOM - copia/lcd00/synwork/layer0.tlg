@@ -1,0 +1,53 @@
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toplcd00.vhdl":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD638 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toplcd00.vhdl":36:7:36:15|Signal souflagcc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toplcd00.vhdl":42:7:42:13|Signal auxcont is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toplcd00.vhdl":43:7:43:14|Signal auxiliar is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\decodifica00.vhdl":6:7:6:18|Synthesizing work.decodifica00.decodifica0.
+@W: CG296 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\decodifica00.vhdl":204:11:204:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\decodifica00.vhdl":211:15:211:22|Referenced variable unidades is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\decodifica00.vhdl":209:15:209:21|Referenced variable decenas is not in sensitivity list.
+Post processing for work.decodifica00.decodifica0
+@W: CL117 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\decodifica00.vhdl":206:2:206:5|Latch generated from process for signal out7seg0(6 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\contring00.vhdl":18:4:18:5|Pruning register bits 3 to 1 of sshift(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+@W: CG296 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":28:11:28:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":47:10:47:14|Referenced variable inend is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":46:10:46:14|Referenced variable inrsd is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":45:10:45:14|Referenced variable inrwd is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":42:10:42:14|Referenced variable inenc is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":41:10:41:14|Referenced variable inrsc is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":40:10:40:14|Referenced variable inrwc is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":30:9:30:16|Referenced variable resetmux is not in sensitivity list.
+@W: CG290 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdmux00.vhdl":37:7:37:21|Referenced variable inflagmuxconfig is not in sensitivity list.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcddata00.vhdl":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcddata00.vhdl":39:3:39:4|Register bit outwordd(7) is always 0.
+@W: CL260 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcddata00.vhdl":39:3:39:4|Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":52:6:52:14|Removing redundant assignment.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontconfig00.vhdl":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontconfig00.vhdl":31:6:31:14|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\osc00.vhdl":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Register bit RSc is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Register bit RWc is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Register bit outWordc(6) is always 0.
+@W: CL260 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdconfig00.vhdl":25:4:25:5|Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":25:4:25:5|Register bit outcontcd(4) is always 0.
+@N: CL189 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":25:4:25:5|Register bit RWcd is always 0.
+@W: CL260 :"C:\Users\Jorge Castillo\Documents\ESCOM\5\Arquitectura\2\Practicas\expoESCOM - copia\lcdcontdata00.vhdl":25:4:25:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
