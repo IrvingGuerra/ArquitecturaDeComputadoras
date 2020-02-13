@@ -1,0 +1,9 @@
+#Start recording tcl command: 8/29/2017 20:53:49
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/and00; Project name: and00
+prj_project new -name "and00" -impl "and00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/and00/and00.vhdl"
+prj_run Synthesis -impl and00
+prj_project save
+prj_project close
+#Stop recording: 8/29/2017 21:12:12

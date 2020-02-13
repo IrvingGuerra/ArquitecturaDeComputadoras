@@ -1,0 +1,69 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\barrelmux00\topshiftL00.vhdl":7:7:7:17|Top entity is set to topshiftL00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\topshiftL00.vhdl":7:7:7:17|Synthesizing work.topshiftl00.topshiftl0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\shiftl00.vhdl":10:7:10:14|Synthesizing work.shiftl00.shiftl0.
+Post processing for work.shiftl00.shiftl0
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\topdiv00.vhdl":11:7:11:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topshiftl00.topshiftl0
+@N: CL201 :"C:\Users\Diego EG\Desktop\barrelmux00\shiftl00.vhdl":26:1:26:2|Trying to extract state machine for register cont_saltos.
+Extracted state machine for register cont_saltos
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 42MB peak: 43MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Sep 27 21:32:23 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+File C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\sierrayescas\Downloads\school+\ESCOM\5\arquitectura de computadoras\ARQUI 3CM2\proyect_Matchx02\barrelmux00\barrelmux00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Sep 27 21:32:25 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 3MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Sep 27 21:32:25 2017
+
+###########################################################]

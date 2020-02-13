@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CD297 :&quot;C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux.vhdl&quot;:22:20:22:23|Width mismatch, location has width 4, value 3</Dynamic>
+            <Navigation>CD297</Navigation>
+            <Navigation>C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Width mismatch, location has width 4, value 3</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

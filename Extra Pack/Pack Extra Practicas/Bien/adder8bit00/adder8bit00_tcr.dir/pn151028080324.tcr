@@ -1,0 +1,23 @@
+#Start recording tcl command: 10/28/2015 07:39:59
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00; Project name: adder8bit00
+D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00
+palabra00
+#Start recording tcl command: 10/28/2015 08:03:23
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00; Project name: palabra00
+prj_project new -name "adder8bit00" -impl "adder8bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Ricardo/Downloads/sumadorrestador8bits/and00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/ha00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/nxor00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/or00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/packageadder00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source"
+file copy -force -- "C:/Users/Ricardo/Downloads/sumadorrestador8bits/packagefa00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/topadder00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/topfa00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/topha00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/xor00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/and00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/ha00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/nxor00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/or00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/packageadder00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/packagefa00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/topadder00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/topfa00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/topha00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/xor00.vhdl"
+prj_project save
+pgr_project close
+prj_run Export -impl adder8bit00 -task Jedecgen
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_src add -exclude "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_src enable "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program run
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project save
+prj_project close
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00.ldf"
+#Stop recording: 10/28/2015 08:03:24

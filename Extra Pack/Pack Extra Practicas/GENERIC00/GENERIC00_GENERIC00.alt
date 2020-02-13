@@ -1,0 +1,45 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Nov 23 00:37:39 2017 *
+NOTE DESIGN NAME: topgeneric00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4FPBGA484 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS inFlagg0 : E11 : inout *
+NOTE PINS clk0 : G11 : out *
+NOTE PINS cdiv0[0] : C10 : in *
+NOTE PINS outg0[7] : B4 : out *
+NOTE PINS outg0[6] : D7 : out *
+NOTE PINS outg0[5] : A5 : out *
+NOTE PINS outg0[4] : D9 : out *
+NOTE PINS outg0[3] : E8 : out *
+NOTE PINS outg0[2] : D8 : out *
+NOTE PINS outg0[1] : D6 : out *
+NOTE PINS outg0[0] : C5 : out *
+NOTE PINS portgB0[7] : E7 : in *
+NOTE PINS portgB0[6] : E6 : in *
+NOTE PINS portgB0[5] : A7 : in *
+NOTE PINS portgB0[4] : E9 : in *
+NOTE PINS portgB0[3] : A2 : in *
+NOTE PINS portgB0[2] : C6 : in *
+NOTE PINS portgB0[1] : G8 : in *
+NOTE PINS portgB0[0] : A3 : in *
+NOTE PINS portgA0[7] : D5 : in *
+NOTE PINS portgA0[6] : F8 : in *
+NOTE PINS portgA0[5] : F10 : in *
+NOTE PINS portgA0[4] : G10 : in *
+NOTE PINS portgA0[3] : D4 : in *
+NOTE PINS portgA0[2] : B3 : in *
+NOTE PINS portgA0[1] : C4 : in *
+NOTE PINS portgA0[0] : G7 : in *
+NOTE PINS outFlagg0 : D11 : out *
+NOTE PINS codopg0[4] : E10 : in *
+NOTE PINS codopg0[3] : B8 : in *
+NOTE PINS codopg0[2] : C11 : in *
+NOTE PINS codopg0[1] : B7 : in *
+NOTE PINS codopg0[0] : C8 : in *
+NOTE PINS enableg0 : F11 : in *
+NOTE PINS cdiv0[3] : B11 : in *
+NOTE PINS cdiv0[2] : A11 : in *
+NOTE PINS cdiv0[1] : B9 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

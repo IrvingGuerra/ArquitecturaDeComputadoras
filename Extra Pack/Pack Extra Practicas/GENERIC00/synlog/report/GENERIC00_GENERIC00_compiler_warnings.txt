@@ -1,0 +1,4 @@
+@W: CL169 :"C:\Users\Diego EG\Desktop\ArqPracticas\xor00.vhdl":24:4:24:5|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Diego EG\Desktop\ArqPracticas\and00.vhdl":24:4:24:5|Pruning unused register outFlaga_cl_7. Make sure that there are no unused intermediate registers.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

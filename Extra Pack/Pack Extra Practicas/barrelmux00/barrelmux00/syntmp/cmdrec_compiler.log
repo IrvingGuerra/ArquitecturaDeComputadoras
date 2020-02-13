@@ -1,0 +1,14 @@
+C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe  -osyn  "C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synwork\barrelmux00_barrelmux00_comp.srs"  -top  topshiftL00  -hdllog  "C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synlog\barrelmux00_barrelmux00_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\Diego EG\Desktop\barrelmux00\div00.vhdl" -lib work "C:\Users\Diego EG\Desktop\barrelmux00\osc00.vhdl" -lib work "C:\Users\Diego EG\Desktop\barrelmux00\packagediv00.vhdl" -lib work "C:\Users\Diego EG\Desktop\barrelmux00\topdiv00.vhdl" -lib work "C:\Users\Diego EG\Desktop\barrelmux00\shiftl00.vhdl" -lib work "C:\Users\Diego EG\Desktop\barrelmux00\packageshiftL00.vhdl" -lib work "C:\Users\Diego EG\Desktop\barrelmux00\topshiftL00.vhdl" 
+rc:0 success:1 runtime:9
+file:C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synwork\barrelmux00_barrelmux00_comp.srs|io:o|time:1506565945|size:7964|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synlog\barrelmux00_barrelmux00_compiler.srr|io:o|time:1506565945|size:3965|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\div00.vhdl|io:i|time:1506552994|size:1793|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\osc00.vhdl|io:i|time:1503934986|size:473|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\packagediv00.vhdl|io:i|time:1503938948|size:452|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\topdiv00.vhdl|io:i|time:1504017174|size:573|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\shiftl00.vhdl|io:i|time:1505223187|size:1727|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\packageshiftL00.vhdl|io:i|time:1505223279|size:559|exec:0
+file:C:\Users\Diego EG\Desktop\barrelmux00\topshiftL00.vhdl|io:i|time:1506553016|size:732|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1

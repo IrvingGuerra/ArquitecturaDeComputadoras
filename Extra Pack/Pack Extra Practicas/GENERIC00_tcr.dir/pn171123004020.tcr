@@ -1,0 +1,24 @@
+#Start recording tcl command: 11/22/2017 23:51:39
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas; Project name: GENERIC00
+prj_project new -name "GENERIC00" -impl "GENERIC00" -dev LCMXO2-7000HE-4FG484C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/div00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/osc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/and00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/xor00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/packageosc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/toposc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/uc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/topgeneric00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/packagegeneric00.vhdl"
+prj_src remove "C:/Users/Diego EG/Desktop/ArqPracticas/packagegeneric00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/packagegeneric00.vhdl"
+prj_src remove "C:/Users/Diego EG/Desktop/ArqPracticas/topgeneric00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/topgeneric00.vhdl"
+prj_src remove "C:/Users/Diego EG/Desktop/ArqPracticas/toposc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/topdiv00.vhdl"
+prj_src remove "C:/Users/Diego EG/Desktop/ArqPracticas/packageosc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/packagediv00.vhdl"
+prj_run Synthesis -impl GENERIC00
+prj_run Export -impl GENERIC00 -task Jedecgen
+#Stop recording: 11/23/2017 00:40:20

@@ -1,0 +1,48 @@
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/Diego EG/Desktop/ArqPracticas/osc00/osc00" -path "C:/Users/Diego EG/Desktop/ArqPracticas/osc00"   "C:/Users/Diego EG/Desktop/ArqPracticas/osc00/osc00/osc00_osc00.edi" "osc00_osc00.ngo"   
+edif2ngd:  version Diamond Version 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to osc00_osc00.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.9/ispfpga/xo2c00/data"  -p "C:/Users/Diego EG/Desktop/ArqPracticas/osc00/osc00" -p "C:/Users/Diego EG/Desktop/ArqPracticas/osc00"  "osc00_osc00.ngo" "osc00_osc00.ngd"  	
+ngdbuild:  version Diamond Version 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'osc00_osc00.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/data/neomacro.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="OSCInst0" arg2="OSCC"  />
+    <postMsg mid="1163100" type="Error"   dynamic="2" navigation="0" arg0="1" arg1="0"  />
+
+Design Results:
+      4 blocks expanded
+        Unexpanded blocks:
+           Name = 'OSCInst0', Type = 'OSCC'
+Complete the first expansion.
+Writing 'osc00_osc00.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+

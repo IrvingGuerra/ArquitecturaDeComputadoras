@@ -1,0 +1,20 @@
+
+fsm_encoding {15261261} onehot
+
+fsm_state_encoding {15261261} 000 {00000001}
+
+fsm_state_encoding {15261261} 001 {00000010}
+
+fsm_state_encoding {15261261} 010 {00000100}
+
+fsm_state_encoding {15261261} 011 {00001000}
+
+fsm_state_encoding {15261261} 100 {00010000}
+
+fsm_state_encoding {15261261} 101 {00100000}
+
+fsm_state_encoding {15261261} 110 {01000000}
+
+fsm_state_encoding {15261261} 111 {10000000}
+
+fsm_registers {15261261} {cont_saltos[0]}  {cont_saltos[1]}  {cont_saltos[2]}  {cont_saltos[3]}  {cont_saltos[4]}  {cont_saltos[5]}  {cont_saltos[6]}  {cont_saltos[7]} 

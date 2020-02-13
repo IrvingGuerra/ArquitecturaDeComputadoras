@@ -1,0 +1,8 @@
+#Start recording tcl command: 2/23/2017 11:32:30
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/packageosc00.vhd"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/toposc00.vhd"
+prj_project save
+prj_project close
+#Stop recording: 2/23/2017 12:50:55

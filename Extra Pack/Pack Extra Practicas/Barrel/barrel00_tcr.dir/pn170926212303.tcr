@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/26/2017 21:08:37
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/Barrel; Project name: barrel00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/Barrel/barrel00.ldf"
+prj_project close
+#Stop recording: 9/26/2017 21:23:03

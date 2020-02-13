@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/11/2017 00:33:12
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/CincoSeis; Project name: mux
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/CincoSeis/mux.ldf"
+prj_run Synthesis -impl mux
+prj_project save
+prj_project close
+#Stop recording: 9/11/2017 01:13:20

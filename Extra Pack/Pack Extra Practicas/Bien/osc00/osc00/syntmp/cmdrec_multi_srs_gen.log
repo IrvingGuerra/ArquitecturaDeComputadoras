@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9\synpbase\bin\syn_nfilter.exe  -link  -top  toposc00  -multisrs  "C:\Users\Diego EG\Desktop\p\Bien\osc00\osc00\synwork\osc00_osc00_comp.srs"  -osyn  "C:\Users\Diego EG\Desktop\p\Bien\osc00\osc00\synwork\osc00_osc00_mult.srs"  -log  "C:\Users\Diego EG\Desktop\p\Bien\osc00\osc00\synlog\osc00_osc00_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\Users\Diego EG\Desktop\p\Bien\osc00\osc00\synwork\osc00_osc00_comp.srs|io:i|time:1505234732|size:5132|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\osc00\osc00\synwork\osc00_osc00_mult.srs|io:o|time:1505234734|size:2124|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\osc00\osc00\synlog\osc00_osc00_multi_srs_gen.srr|io:o|time:1505234734|size:616|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1

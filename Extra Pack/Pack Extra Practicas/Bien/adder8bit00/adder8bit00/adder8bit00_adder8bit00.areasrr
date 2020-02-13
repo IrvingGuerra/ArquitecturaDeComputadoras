@@ -1,0 +1,330 @@
+----------------------------------------------------------------------
+Report for cell topadder00.topadder0
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       26
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB       17       100.0
+                                 OB        9       100.0
+                           ORCALUT4       22       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        9       100.0
+SUB MODULES 
+                           and00_15        1       100.0
+                           and00_16        1       100.0
+                           and00_17        1       100.0
+                           and00_18        1       100.0
+                           and00_19        1       100.0
+                           and00_20        1       100.0
+                           and00_21        1       100.0
+                           and00_22        1       100.0
+                             nxor00        1       100.0
+                               or00        1       100.0
+                             or00_0        1       100.0
+                             or00_1        1       100.0
+                             or00_2        1       100.0
+                             or00_3        1       100.0
+                             or00_4        1       100.0
+                             or00_5        1       100.0
+                            topfa00        1       100.0
+                          topfa00_0        1       100.0
+                          topfa00_1        1       100.0
+                          topfa00_2        1       100.0
+                          topfa00_3        1       100.0
+                          topfa00_4        1       100.0
+                          topfa00_5        1       100.0
+                            xor00_0        1       100.0
+                            xor00_1        1       100.0
+                            xor00_2        1       100.0
+                            xor00_3        1       100.0
+                            xor00_4        1       100.0
+                            xor00_5        1       100.0
+                            
+                         TOTAL            89           
+----------------------------------------------------------------------
+Report for cell nxor00.netlist
+     Instance path:  UA24
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_22.netlist
+  Original Cell name and00
+     Instance path:  UA23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_21.netlist
+  Original Cell name and00
+     Instance path:  UA22
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_20.netlist
+  Original Cell name and00
+     Instance path:  UA21
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_19.netlist
+  Original Cell name and00
+     Instance path:  UA20
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_18.netlist
+  Original Cell name and00
+     Instance path:  UA19
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_17.netlist
+  Original Cell name and00
+     Instance path:  UA18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_16.netlist
+  Original Cell name and00
+     Instance path:  UA17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_15.netlist
+  Original Cell name and00
+     Instance path:  UA16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_5.netlist
+  Original Cell name topfa00
+     Instance path:  UA14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+SUB MODULES 
+                             or00_5        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell or00_5.netlist
+  Original Cell name or00
+     Instance path:  UA14.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_4.netlist
+  Original Cell name topfa00
+     Instance path:  UA13
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+SUB MODULES 
+                             or00_4        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell or00_4.netlist
+  Original Cell name or00
+     Instance path:  UA13.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_3.netlist
+  Original Cell name topfa00
+     Instance path:  UA12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+SUB MODULES 
+                             or00_3        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell or00_3.netlist
+  Original Cell name or00
+     Instance path:  UA12.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_2.netlist
+  Original Cell name topfa00
+     Instance path:  UA11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+SUB MODULES 
+                             or00_2        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell or00_2.netlist
+  Original Cell name or00
+     Instance path:  UA11.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_1.netlist
+  Original Cell name topfa00
+     Instance path:  UA10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+SUB MODULES 
+                             or00_1        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell or00_1.netlist
+  Original Cell name or00
+     Instance path:  UA10.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_0.netlist
+  Original Cell name topfa00
+     Instance path:  UA09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+SUB MODULES 
+                             or00_0        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell or00_0.netlist
+  Original Cell name or00
+     Instance path:  UA09.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00.netlist
+  Original Cell name topfa00
+     Instance path:  UA08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+SUB MODULES 
+                               or00        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell or00.netlist
+  Original Cell name or00
+     Instance path:  UA08.U02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_5.netlist
+  Original Cell name xor00
+     Instance path:  UA06
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_4.netlist
+  Original Cell name xor00
+     Instance path:  UA05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_3.netlist
+  Original Cell name xor00
+     Instance path:  UA04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_2.netlist
+  Original Cell name xor00
+     Instance path:  UA03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_1.netlist
+  Original Cell name xor00
+     Instance path:  UA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_0.netlist
+  Original Cell name xor00
+     Instance path:  UA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         4.5
+                                VLO        1        11.1
+                            
+                         TOTAL             2           

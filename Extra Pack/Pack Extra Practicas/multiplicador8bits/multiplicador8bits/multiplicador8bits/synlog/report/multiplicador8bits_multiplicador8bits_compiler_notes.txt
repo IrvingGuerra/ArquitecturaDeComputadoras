@@ -1,0 +1,12 @@
+@N|Running in 32-bit mode
+@N|Running in 32-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPMUL00.vhdl":9:7:9:14|Top entity is set to TOPMUL00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPMUL00.vhdl":9:7:9:14|Synthesizing work.topmul00.topmul01.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPADDER01.vhdl":9:7:9:15|Synthesizing work.topadder1.topadder01.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPADER0.vhdl":9:7:9:15|Synthesizing work.topadder0.topadder00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\xor.vhdl":8:7:8:10|Synthesizing work.xor0.xor00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\AND00.vhdl":8:7:8:10|Synthesizing work.and0.and00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\OR.vhdl":8:7:8:9|Synthesizing work.or0.or00.
+@N|Running in 32-bit mode
+

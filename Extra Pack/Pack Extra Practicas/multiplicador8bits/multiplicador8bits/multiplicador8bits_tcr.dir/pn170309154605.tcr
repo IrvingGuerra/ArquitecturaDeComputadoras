@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/9/2017 15:41:24
+#Project Location: C:/Users/Giselle/Desktop/multiplicador8bits; Project name: multiplicador8bits
+prj_project open "C:/Users/Giselle/Desktop/multiplicador8bits/multiplicador8bits.ldf"
+pgr_project save "C:/Users/Giselle/Desktop/multiplicador8bits/multiplicador8bits/multiplicador8bits.xcf"
+prj_src add -exclude "C:/Users/Giselle/Desktop/multiplicador8bits/multiplicador8bits/multiplicador8bits.xcf"
+prj_src enable "C:/Users/Giselle/Desktop/multiplicador8bits/multiplicador8bits/multiplicador8bits.xcf"
+pgr_program run
+pgr_project save "C:/Users/Giselle/Desktop/multiplicador8bits/multiplicador8bits/multiplicador8bits.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/9/2017 15:46:05

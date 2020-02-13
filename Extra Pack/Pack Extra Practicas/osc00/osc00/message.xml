@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166315</ID>
+            <Severity>Error</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OSCInst0</Dynamic>
+            <Dynamic>OSCC</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163100</ID>
+            <Severity>Error</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD280 :&quot;C:\Users\Diego EG\Desktop\ArqPracticas\osc00\osc00.vhdl&quot;:13:10:13:13|Unbound component OSCC mapped to black box</Dynamic>
+            <Navigation>CD280</Navigation>
+            <Navigation>C:\Users\Diego EG\Desktop\ArqPracticas\osc00\osc00.vhdl</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Unbound component OSCC mapped to black box</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

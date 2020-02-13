@@ -1,0 +1,26 @@
+PAR: Place And Route Diamond Version 3.9.0.99.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Sep 27 15:50:54 2017
+
+C:/lscc/diamond/3.9/ispfpga\bin\nt\par -f barrel01_barrel01.p2t
+barrel01_barrel01_map.ncd barrel01_barrel01.dir barrel01_barrel01.prf -gui
+-msgset C:/Users/Diego EG/Desktop/ArqPracticas/Barrel/barreel01/promote.xml
+
+
+Preference file: barrel01_barrel01.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            467.866      0            0.379        0            13           Complete
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 13 secs 
+
+par done!

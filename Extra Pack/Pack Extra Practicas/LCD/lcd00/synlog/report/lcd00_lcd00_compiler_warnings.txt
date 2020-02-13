@@ -1,0 +1,6 @@
+@W: CL260 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcddata00.vhdl":50:1:50:2|Pruning register bit 7 of outworddd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Removing register 'RWc' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\Diego EG\Desktop\ArqPracticas\LCD\lcdconfig00.vhdl":25:4:25:5|Pruning register bit 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

@@ -1,0 +1,70 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|TOPMUL00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\multiplicador8bits\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\bin\\c_vhdl.exe":1481009758
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\hyperents.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1480973228
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\PACKAGECOMP.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\PACKAGEMUL00.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\PAKAGEADDER.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\TOPADDER01.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\TOPADER0.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\xor.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\OR.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\AND00.vhdl":1488980344
+#CUR:"C:\\Users\\Diego EG\\Desktop\\ArqPracticas\\multiplicador8bits\\multiplicador8bits\\TOPMUL00.vhdl":1488980344
+0 "C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\PACKAGECOMP.vhdl" vhdl
+2 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\PACKAGEMUL00.vhdl" vhdl
+3 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\PAKAGEADDER.vhdl" vhdl
+4 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPADDER01.vhdl" vhdl
+5 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPADER0.vhdl" vhdl
+6 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\xor.vhdl" vhdl
+7 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\OR.vhdl" vhdl
+8 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\AND00.vhdl" vhdl
+9 "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPMUL00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 5 7 3 
+5 8 6 1 
+6 -1
+7 -1
+8 -1
+9 8 4 2 
+
+# Dependency Lists (Users Of)
+0 -1
+1 5 
+2 9 
+3 4 
+4 9 
+5 4 
+6 5 
+7 4 
+8 9 5 
+9 -1
+
+# Design Unit to File Association
+arch work topadder1 topadder01 4
+module work topadder1 4
+arch work topadder0 topadder00 5
+module work topadder0 5
+arch work xor0 xor00 6
+module work xor0 6
+arch work or0 or00 7
+module work or0 7
+arch work and0 and00 8
+module work and0 8
+arch work topmul00 topmul01 9
+module work topmul00 9

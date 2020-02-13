@@ -1,0 +1,32 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Sep 08 00:43:07 2017 *
+NOTE DESIGN NAME: nxor00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Ynx[0] : 115 : out *
+NOTE PINS Anx[0] : 38 : in *
+NOTE PINS Ynx[7] : 110 : out *
+NOTE PINS Ynx[6] : 109 : out *
+NOTE PINS Ynx[5] : 112 : out *
+NOTE PINS Ynx[4] : 111 : out *
+NOTE PINS Ynx[3] : 114 : out *
+NOTE PINS Ynx[2] : 113 : out *
+NOTE PINS Ynx[1] : 117 : out *
+NOTE PINS Bnx[7] : 56 : in *
+NOTE PINS Bnx[6] : 55 : in *
+NOTE PINS Bnx[5] : 54 : in *
+NOTE PINS Bnx[4] : 52 : in *
+NOTE PINS Bnx[3] : 50 : in *
+NOTE PINS Bnx[2] : 49 : in *
+NOTE PINS Bnx[1] : 48 : in *
+NOTE PINS Bnx[0] : 47 : in *
+NOTE PINS Anx[7] : 45 : in *
+NOTE PINS Anx[6] : 44 : in *
+NOTE PINS Anx[5] : 43 : in *
+NOTE PINS Anx[4] : 42 : in *
+NOTE PINS Anx[3] : 41 : in *
+NOTE PINS Anx[2] : 40 : in *
+NOTE PINS Anx[1] : 39 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

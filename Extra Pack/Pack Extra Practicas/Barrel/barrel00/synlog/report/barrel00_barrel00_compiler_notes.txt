@@ -1,0 +1,13 @@
+@N|Running in 32-bit mode
+@N|Running in 32-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":7:7:7:14|Top entity is set to registro.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":7:7:7:14|Synthesizing work.registro.registro00.
+@N: CD364 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":60:6:60:9|Removing redundant assignment.
+@N: CD364 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":74:6:74:9|Removing redundant assignment.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL159 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":13:2:13:4|Input Key is unused.
+@N|Running in 32-bit mode
+

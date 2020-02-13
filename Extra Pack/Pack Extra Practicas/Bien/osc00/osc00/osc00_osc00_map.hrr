@@ -1,0 +1,28 @@
+---------------------------------------------------
+Report for cell toposc00
+   Instance path: toposc00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.00        100.0
+                                  LUT4	      39.00        100.0
+                                 IOBUF	          5        100.0
+                                PFUREG	         22        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        100.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: toposc00/O01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.00        100.0
+                                  LUT4	      39.00        100.0
+                                PFUREG	         22        100.0
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: toposc00/O00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

@@ -1,0 +1,7 @@
+@N|Running in 32-bit mode
+@N|Running in 32-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\ArqPracticas\cinco\nand00\nand00.vhdl":6:7:6:12|Top entity is set to nand00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\cinco\nand00\nand00.vhdl":6:7:6:12|Synthesizing work.nand00.nand0.
+@N|Running in 32-bit mode
+

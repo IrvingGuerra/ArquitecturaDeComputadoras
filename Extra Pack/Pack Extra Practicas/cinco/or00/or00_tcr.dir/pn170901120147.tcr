@@ -1,0 +1,27 @@
+#Start recording tcl command: 9/1/2017 11:38:24
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00; Project name: or00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00.ldf"
+prj_run Synthesis -impl or00
+prj_run Export -impl or00 -task Jedecgen
+prj_run Export -impl or00 -task Jedecgen
+prj_run Export -impl or00 -task Jedecgen
+prj_run Export -impl or00 -task Jedecgen
+pgr_project save "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00/or00.xcf"
+prj_src add -exclude "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00/or00.xcf"
+prj_src enable "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00/or00.xcf"
+pgr_program run
+pgr_program run
+pgr_program set -cable LATTICE
+pgr_program set -port 0x0378
+pgr_program run
+pgr_program set -cable USB2
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program set -cable LATTICE
+pgr_program set -port 0x0378
+pgr_program set -cable USB2
+pgr_program set -port FTUSB-0
+pgr_project save "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00/or00.xcf"
+pgr_project close
+#Stop recording: 9/1/2017 12:01:47

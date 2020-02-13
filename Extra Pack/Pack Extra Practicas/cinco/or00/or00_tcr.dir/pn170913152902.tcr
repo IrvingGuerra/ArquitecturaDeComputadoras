@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/13/2017 11:27:58
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00; Project name: or00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00.ldf"
+pgr_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/or00/or00/or00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 9/13/2017 15:29:02

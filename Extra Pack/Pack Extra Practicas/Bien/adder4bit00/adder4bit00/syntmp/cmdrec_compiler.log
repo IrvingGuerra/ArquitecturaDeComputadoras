@@ -1,0 +1,17 @@
+C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe  -osyn  "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.srs"  -top  topadder4bit00  -hdllog  "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\adder4bit00\synlog\adder4bit00_adder4bit00_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\adder4bit00\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\and00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\or00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\xor00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\packageha00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\topha00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\packagefa00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\topfa00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\xnor00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\packageadder4bit00.vhdl" -lib work "C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\topadder4bit00.vhdl" 
+rc:0 success:1 runtime:3
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.srs|io:o|time:1505231887|size:5674|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\adder4bit00\synlog\adder4bit00_adder4bit00_compiler.srr|io:o|time:1505231887|size:3622|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\and00.vhdl|io:i|time:1496003454|size:284|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\or00.vhdl|io:i|time:1496003454|size:281|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\xor00.vhdl|io:i|time:1496003460|size:287|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\packageha00.vhdl|io:i|time:1496003456|size:372|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\topha00.vhdl|io:i|time:1496003458|size:460|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\packagefa00.vhdl|io:i|time:1496003456|size:397|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\topfa00.vhdl|io:i|time:1496003458|size:669|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\xnor00.vhdl|io:i|time:1496003460|size:308|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\packageadder4bit00.vhdl|io:i|time:1496003456|size:677|exec:0
+file:C:\Users\Diego EG\Desktop\p\Bien\adder4bit00\topadder4bit00.vhdl|io:i|time:1496003458|size:1891|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1

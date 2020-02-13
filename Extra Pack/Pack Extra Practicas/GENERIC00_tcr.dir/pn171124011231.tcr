@@ -1,0 +1,7 @@
+#Start recording tcl command: 11/24/2017 00:23:54
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas; Project name: GENERIC00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/GENERIC00.ldf"
+prj_run Export -impl GENERIC00 -task Jedecgen
+prj_run Export -impl GENERIC00 -task Jedecgen
+prj_project close
+#Stop recording: 11/24/2017 01:12:31

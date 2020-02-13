@@ -1,0 +1,1 @@
+run_tcl -fg multiplicador8bits_multiplicador8bits_synplify.tcl

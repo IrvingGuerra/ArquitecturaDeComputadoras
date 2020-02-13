@@ -1,0 +1,15 @@
+#Start recording tcl command: 9/8/2017 00:36:15
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00; Project name: nxor00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00/nxor00.ldf"
+prj_run Synthesis -impl nxor00
+prj_run Export -impl nxor00 -task Jedecgen
+prj_run Export -impl nxor00 -task Jedecgen
+pgr_project save "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00/nxor00/nxor00.xcf"
+prj_src add -exclude "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00/nxor00/nxor00.xcf"
+prj_src enable "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00/nxor00/nxor00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00/nxor00/nxor00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/8/2017 00:45:22

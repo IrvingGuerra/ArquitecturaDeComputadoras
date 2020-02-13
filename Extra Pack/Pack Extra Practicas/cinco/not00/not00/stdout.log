@@ -1,0 +1,128 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9\synpbase\bin\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9\synpbase
+Hostname:    DIEGO
+Date:        Fri Sep 08 01:04:20 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch not00_not00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Fri Sep 08 01:04:20 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+log file: "C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srr"
+
+Running: not00 in foreground
+
+
+
+Running proj_1|not00
+
+
+Running: compile (Compile) on proj_1|not00
+# Fri Sep 08 01:04:20 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|not00
+# Fri Sep 08 01:04:20 2017
+
+
+Running: compiler (Compile Input) on proj_1|not00
+# Fri Sep 08 01:04:20 2017
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\synwork\not00_not00_comp.srs to C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srs
+
+
+compiler completed
+# Fri Sep 08 01:04:22 2017
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|not00
+# Fri Sep 08 01:04:22 2017
+
+
+multi_srs_gen completed
+# Fri Sep 08 01:04:22 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\synwork\not00_not00_mult.srs to C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srs
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srr to C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srf
+
+Complete: Compile Process on proj_1|not00
+
+
+Running: premap (Pre-mapping) on proj_1|not00
+# Fri Sep 08 01:04:22 2017
+
+
+premap completed
+# Fri Sep 08 01:04:23 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Complete: Compile on proj_1|not00
+
+
+Running: map (Map) on proj_1|not00
+# Fri Sep 08 01:04:23 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|not00
+# Fri Sep 08 01:04:23 2017
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\synwork\not00_not00_m.srm to C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srm
+
+
+fpga_mapper completed
+# Fri Sep 08 01:04:26 2017
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Complete: Map on proj_1|not00
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srr to C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\not00_not00.srf
+
+Complete: Logic Synthesis on proj_1|not00
+
+TCL script complete: "not00_not00_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Diego EG\Desktop\ArqPracticas\cinco\not00\not00\proj_1.prj
+
+batch mode default:no
+

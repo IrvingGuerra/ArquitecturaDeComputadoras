@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="multiplicador8bits" device="LCMXO2-7000HE-5TG144C" default_implementation="multiplicador8bits">
+    <Options/>
+    <Implementation title="multiplicador8bits" dir="multiplicador8bits" description="multiplicador8bits" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="TOPMUL00"/>
+        <Source name="PACKAGECOMP.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="PACKAGEMUL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="PAKAGEADDER.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="TOPADDER01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="TOPADER0.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xor.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="OR.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="AND00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="TOPMUL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="TOPMUL00"/>
+        </Source>
+        <Source name="multiplicador8bits.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="multiplicador8bits/multiplicador8bits.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="multiplicador8bits1.sty"/>
+</BaliProject>

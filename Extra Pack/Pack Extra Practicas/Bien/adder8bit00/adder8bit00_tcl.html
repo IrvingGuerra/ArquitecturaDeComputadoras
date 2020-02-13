@@ -1,0 +1,175 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn151028080324"></A><B><U><big>pn151028080324</big></U></B>
+#Start recording tcl command: 10/28/2015 07:39:59
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00; Project name: adder8bit00
+D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00
+palabra00
+#Start recording tcl command: 10/28/2015 08:03:23
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00; Project name: palabra00
+prj_project new -name "adder8bit00" -impl "adder8bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Ricardo/Downloads/sumadorrestador8bits/and00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/ha00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/nxor00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/or00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/packageadder00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source"
+file copy -force -- "C:/Users/Ricardo/Downloads/sumadorrestador8bits/packagefa00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/topadder00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/topfa00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/topha00.vhdl" "C:/Users/Ricardo/Downloads/sumadorrestador8bits/xor00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/and00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/ha00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/nxor00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/or00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/packageadder00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/packagefa00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/topadder00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/topfa00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/topha00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/source/xor00.vhdl"
+prj_project save
+pgr_project close
+prj_run Export -impl adder8bit00 -task Jedecgen
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_src add -exclude "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_src enable "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program run
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project save
+prj_project close
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00.ldf"
+#Stop recording: 10/28/2015 08:03:24
+
+
+
+<A name="pn160223072831"></A><B><U><big>pn160223072831</big></U></B>
+#Start recording tcl command: 2/23/2016 07:22:47
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project close
+#Stop recording: 2/23/2016 07:28:31
+
+
+
+<A name="pn160309082227"></A><B><U><big>pn160309082227</big></U></B>
+#Start recording tcl command: 3/9/2016 08:16:06
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00.ldf"
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project close
+#Stop recording: 3/9/2016 08:22:27
+
+
+
+<A name="pn160309083300"></A><B><U><big>pn160309083300</big></U></B>
+#Start recording tcl command: 3/9/2016 08:31:35
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/adder8bit00/adder8bit00.ldf"
+prj_project close
+#Stop recording: 3/9/2016 08:33:00
+
+
+
+<A name="pn160906094348"></A><B><U><big>pn160906094348</big></U></B>
+#Start recording tcl command: 9/6/2016 09:34:25
+#Project Location: C:/Users/saiko/Desktop/Arquitectura/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/saiko/Desktop/Arquitectura/adder8bit00/adder8bit00.ldf"
+prj_run Synthesis -impl adder8bit00
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/Arquitectura/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_project save "C:/Users/saiko/Desktop/Arquitectura/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/6/2016 09:43:48
+
+
+
+<A name="pn170220132536"></A><B><U><big>pn170220132536</big></U></B>
+#Start recording tcl command: 2/20/2017 12:58:38
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/adder8bit00/adder8bit00.ldf"
+#Stop recording: 2/20/2017 13:25:36
+
+
+
+<A name="pn170227101054"></A><B><U><big>pn170227101054</big></U></B>
+#Start recording tcl command: 2/27/2017 10:04:21
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/adder8bit00/adder8bit00.ldf"
+#Stop recording: 2/27/2017 10:10:54
+
+
+
+<A name="pn170912232602"></A><B><U><big>pn170912232602</big></U></B>
+#Start recording tcl command: 9/12/2017 11:19:36
+#Project Location: C:/Users/Diego EG/Desktop/p/Bien/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/Diego EG/Desktop/p/Bien/adder8bit00/adder8bit00.ldf"
+prj_run Synthesis -impl adder8bit00
+prj_run Export -impl adder8bit00 -task Jedecgen
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project open "C:/Users/Diego EG/Desktop/p/Bien/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program set -cable LATTICE
+pgr_program set -port 0x0378
+pgr_program run
+pgr_program set -cable USB2
+pgr_program set -port FTUSB-0
+pgr_program run
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/Diego EG/Desktop/p/Bien/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 9/12/2017 23:26:02
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

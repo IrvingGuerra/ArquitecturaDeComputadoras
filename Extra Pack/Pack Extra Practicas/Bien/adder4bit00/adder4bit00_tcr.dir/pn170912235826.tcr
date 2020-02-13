@@ -1,0 +1,18 @@
+#Start recording tcl command: 9/12/2017 10:57:28
+#Project Location: C:/Users/Diego EG/Desktop/p/Bien/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/Diego EG/Desktop/p/Bien/adder4bit00/adder4bit00.ldf"
+prj_run Synthesis -impl adder4bit00
+prj_run Export -impl adder4bit00 -task Jedecgen
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project open "C:/Users/Diego EG/Desktop/p/Bien/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Diego EG/Desktop/p/Bien/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_project close
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project open "C:/Users/Diego EG/Desktop/p/Bien/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_program run
+pgr_project close
+prj_project close
+#Stop recording: 9/12/2017 23:58:26

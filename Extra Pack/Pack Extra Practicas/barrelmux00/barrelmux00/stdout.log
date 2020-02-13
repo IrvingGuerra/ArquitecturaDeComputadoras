@@ -1,0 +1,130 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9\synpbase\bin\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9\synpbase
+Hostname:    DIEGO
+Date:        Wed Sep 27 21:32:00 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch barrelmux00_barrelmux00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Wed Sep 27 21:32:15 2017
+
+Return Code: 0
+Run Time:00h:00m:09s
+
+Copied C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srr to C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srf
+
+log file: "C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srr"
+
+Running: barrelmux00 in foreground
+
+
+
+Running proj_1|barrelmux00
+
+
+Running: compile (Compile) on proj_1|barrelmux00
+# Wed Sep 27 21:32:18 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|barrelmux00
+# Wed Sep 27 21:32:18 2017
+
+
+Running: compiler (Compile Input) on proj_1|barrelmux00
+# Wed Sep 27 21:32:18 2017
+
+Copied C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synwork\barrelmux00_barrelmux00_comp.srs to C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srs
+
+
+compiler completed
+# Wed Sep 27 21:32:27 2017
+
+Return Code: 0
+Run Time:00h:00m:09s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|barrelmux00
+# Wed Sep 27 21:32:28 2017
+
+
+multi_srs_gen completed
+# Wed Sep 27 21:32:30 2017
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Copied C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synwork\barrelmux00_barrelmux00_mult.srs to C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srs
+
+Copied C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srr to C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srf
+
+Complete: Compile Process on proj_1|barrelmux00
+
+
+Running: premap (Pre-mapping) on proj_1|barrelmux00
+# Wed Sep 27 21:32:31 2017
+
+
+premap completed with warnings
+# Wed Sep 27 21:32:49 2017
+
+Return Code: 1
+Run Time:00h:00m:18s
+
+Complete: Compile on proj_1|barrelmux00
+
+
+Running: map (Map) on proj_1|barrelmux00
+# Wed Sep 27 21:32:49 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|barrelmux00
+# Wed Sep 27 21:32:49 2017
+
+Copied C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\synwork\barrelmux00_barrelmux00_m.srm to C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srm
+
+
+fpga_mapper completed with warnings
+# Wed Sep 27 21:33:12 2017
+
+Return Code: 1
+Run Time:00h:00m:23s
+
+Complete: Map on proj_1|barrelmux00
+
+Copied C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srr to C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\barrelmux00_barrelmux00.srf
+
+Complete: Logic Synthesis on proj_1|barrelmux00
+
+TCL script complete: "barrelmux00_barrelmux00_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Diego EG\Desktop\barrelmux00\barrelmux00\proj_1.prj
+
+batch mode default:no
+

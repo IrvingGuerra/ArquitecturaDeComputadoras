@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/14/2017 08:54:21
+#Project Location: C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits; Project name: multiplicador8bits
+prj_project open "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/multiplicador8bits.ldf"
+prj_run Translate -impl multiplicador8bits
+prj_src add "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/PACKAGECOMP.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/PACKAGEMUL00.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/PAKAGEADDER.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/TOPADDER01.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/TOPADER0.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/TOPMUL00.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/xor.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/OR.vhdl" "C:/Users/Kevin/Desktop/multiplicador8bits/multiplicador8bits/AND00.vhdl"
+prj_run Synthesis -impl multiplicador8bits
+prj_run Export -impl multiplicador8bits -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 3/14/2017 09:01:29

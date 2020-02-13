@@ -1,0 +1,9 @@
+#Start recording tcl command: 8/29/2017 21:14:58
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/xor00; Project name: xor00
+prj_project new -name "xor00" -impl "xor00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/xor00/xor00.vhdl"
+prj_run Synthesis -impl xor00
+prj_project save
+prj_project close
+#Stop recording: 8/29/2017 21:16:18

@@ -1,0 +1,34 @@
+#Start recording tcl command: 2/27/2017 19:11:29
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.vhd"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/div00.vhd"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/packageosc00.vhd"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/toposc00.vhd"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.vhdl"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/div00.vhdl"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/packageosc00.vhdl"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/toposc00.vhdl"
+prj_run Synthesis -impl osc00
+prj_run Translate -impl osc00
+prj_run Map -impl osc00
+prj_run PAR -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+prj_run Map -impl osc00
+prj_run PAR -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_src add -exclude "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_src enable "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_dev set -part LCMXO2-7000HE-5TG144C
+pgr_project close
+prj_run Synthesis -impl osc00
+prj_run Map -impl osc00
+prj_run PAR -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+pgr_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 2/27/2017 21:42:54

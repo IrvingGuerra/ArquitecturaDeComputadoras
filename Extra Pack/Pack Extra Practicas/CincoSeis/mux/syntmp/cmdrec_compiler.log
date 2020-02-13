@@ -1,0 +1,8 @@
+C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe  -osyn  "C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux\synwork\mux_mux_comp.srs"  -top  mux00  -hdllog  "C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux\synlog\mux_mux_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux.vhdl" 
+rc:2 success:0 runtime:2
+file:C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux\synwork\mux_mux_comp.srs|io:o|time:0|size:0|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux\synlog\mux_mux_compiler.srr|io:o|time:1505110304|size:1785|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux.vhdl|io:i|time:1505110219|size:666|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1

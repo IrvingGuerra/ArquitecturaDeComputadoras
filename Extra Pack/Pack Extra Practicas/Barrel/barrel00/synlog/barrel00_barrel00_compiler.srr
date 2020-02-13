@@ -1,0 +1,63 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":7:7:7:14|Top entity is set to registro.
+File C:\lscc\diamond\3.9\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.9\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\osc00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\packagediv00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\topdiv00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl changed - recompiling
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":7:7:7:14|Synthesizing work.registro.registro00.
+@N: CD364 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":60:6:60:9|Removing redundant assignment.
+@N: CD364 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":74:6:74:9|Removing redundant assignment.
+@W: CG296 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":35:11:35:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":38:5:38:11|Referenced variable outdiv0 is not in sensitivity list.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.registro.registro00
+@N: CL159 :"C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\test.vhdl":13:2:13:4|Input Key is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 42MB peak: 45MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 26 10:26:06 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+File C:\Users\Diego EG\Desktop\ArqPracticas\Barrel\barrel00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 26 10:26:07 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 3MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 26 10:26:07 2017
+
+###########################################################]

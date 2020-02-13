@@ -1,0 +1,32 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Sep 08 01:01:19 2017 *
+NOTE DESIGN NAME: nor00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Yno[0] : 115 : out *
+NOTE PINS Ano[0] : 38 : in *
+NOTE PINS Yno[7] : 110 : out *
+NOTE PINS Yno[6] : 109 : out *
+NOTE PINS Yno[5] : 112 : out *
+NOTE PINS Yno[4] : 111 : out *
+NOTE PINS Yno[3] : 114 : out *
+NOTE PINS Yno[2] : 113 : out *
+NOTE PINS Yno[1] : 117 : out *
+NOTE PINS Bno[7] : 56 : in *
+NOTE PINS Bno[6] : 55 : in *
+NOTE PINS Bno[5] : 54 : in *
+NOTE PINS Bno[4] : 52 : in *
+NOTE PINS Bno[3] : 50 : in *
+NOTE PINS Bno[2] : 49 : in *
+NOTE PINS Bno[1] : 48 : in *
+NOTE PINS Bno[0] : 47 : in *
+NOTE PINS Ano[7] : 45 : in *
+NOTE PINS Ano[6] : 44 : in *
+NOTE PINS Ano[5] : 43 : in *
+NOTE PINS Ano[4] : 42 : in *
+NOTE PINS Ano[3] : 41 : in *
+NOTE PINS Ano[2] : 40 : in *
+NOTE PINS Ano[1] : 39 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

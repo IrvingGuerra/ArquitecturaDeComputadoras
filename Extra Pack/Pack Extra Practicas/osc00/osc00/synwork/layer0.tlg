@@ -1,0 +1,5 @@
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\osc00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD280 :"C:\Users\Diego EG\Desktop\ArqPracticas\osc00\osc00.vhdl":13:10:13:13|Unbound component OSCC mapped to black box
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\osc00\osc00.vhdl":13:10:13:13|Synthesizing work.oscc.syn_black_box.
+Post processing for work.oscc.syn_black_box
+Post processing for work.osc00.osc0

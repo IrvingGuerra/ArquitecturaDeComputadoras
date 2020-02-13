@@ -1,0 +1,2 @@
+@E: CD297 :"C:\Users\Diego EG\Desktop\ArqPracticas\CincoSeis\mux.vhdl":22:20:22:23|Width mismatch, location has width 4, value 3
+

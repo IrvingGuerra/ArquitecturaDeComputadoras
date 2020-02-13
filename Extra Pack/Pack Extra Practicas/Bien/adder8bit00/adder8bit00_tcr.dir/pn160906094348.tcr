@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/6/2016 09:34:25
+#Project Location: C:/Users/saiko/Desktop/Arquitectura/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/saiko/Desktop/Arquitectura/adder8bit00/adder8bit00.ldf"
+prj_run Synthesis -impl adder8bit00
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/Arquitectura/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_project save "C:/Users/saiko/Desktop/Arquitectura/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/6/2016 09:43:48

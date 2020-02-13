@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/29/2017 21:35:38
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00; Project name: nxor00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nxor00/nxor00.ldf"
+prj_project close
+#Stop recording: 8/29/2017 21:35:46

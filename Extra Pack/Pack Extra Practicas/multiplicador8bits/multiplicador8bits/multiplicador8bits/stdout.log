@@ -1,0 +1,130 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9\synpbase\bin\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9\synpbase
+Hostname:    DIEGO
+Date:        Wed Sep 20 23:20:21 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch multiplicador8bits_multiplicador8bits_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Wed Sep 20 23:20:25 2017
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srr to C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srf
+
+log file: "C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srr"
+
+Running: multiplicador8bits in foreground
+
+
+
+Running proj_1|multiplicador8bits
+
+
+Running: compile (Compile) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:25 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:25 2017
+
+
+Running: compiler (Compile Input) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:25 2017
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\synwork\multiplicador8bits_multiplicador8bits_comp.srs to C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srs
+
+
+compiler completed
+# Wed Sep 20 23:20:30 2017
+
+Return Code: 0
+Run Time:00h:00m:05s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:30 2017
+
+
+multi_srs_gen completed
+# Wed Sep 20 23:20:31 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\synwork\multiplicador8bits_multiplicador8bits_mult.srs to C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srs
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srr to C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srf
+
+Complete: Compile Process on proj_1|multiplicador8bits
+
+
+Running: premap (Pre-mapping) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:31 2017
+
+
+premap completed
+# Wed Sep 20 23:20:37 2017
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+Complete: Compile on proj_1|multiplicador8bits
+
+
+Running: map (Map) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:37 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|multiplicador8bits
+# Wed Sep 20 23:20:37 2017
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\synwork\multiplicador8bits_multiplicador8bits_m.srm to C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srm
+
+
+fpga_mapper completed
+# Wed Sep 20 23:20:56 2017
+
+Return Code: 0
+Run Time:00h:00m:19s
+
+Complete: Map on proj_1|multiplicador8bits
+
+Copied C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srr to C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\multiplicador8bits_multiplicador8bits.srf
+
+Complete: Logic Synthesis on proj_1|multiplicador8bits
+
+TCL script complete: "multiplicador8bits_multiplicador8bits_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\multiplicador8bits\proj_1.prj
+
+batch mode default:no
+

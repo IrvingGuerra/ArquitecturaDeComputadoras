@@ -1,0 +1,14 @@
+#Start recording tcl command: 11/24/2017 00:17:44
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas; Project name: GENERIC00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/GENERIC00.ldf"
+prj_dev set -part LCMXO2-7000HE-4TG144C
+prj_run Export -impl GENERIC00 -task Jedecgen
+prj_run Map -impl GENERIC00
+prj_run Translate -impl GENERIC00
+prj_run Translate -impl GENERIC00
+prj_run Translate -impl GENERIC00
+prj_run Translate -impl GENERIC00 -forceAll
+prj_run Translate -impl GENERIC00 -forceOne
+prj_project save
+prj_project close
+#Stop recording: 11/24/2017 00:23:47

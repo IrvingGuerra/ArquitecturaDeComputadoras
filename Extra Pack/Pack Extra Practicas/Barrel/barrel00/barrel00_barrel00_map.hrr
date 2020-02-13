@@ -1,0 +1,28 @@
+---------------------------------------------------
+Report for cell registro
+   Instance path: registro
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00        100.0
+                                  LUT4	      64.00        100.0
+                                 IOBUF	         32        100.0
+                                PFUREG	         34        100.0
+                                RIPPLE	         14        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        70.7
+---------------------------------------------------
+Report for cell div00
+   Instance path: registro/UD01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.50        70.7
+                                  LUT4	      43.00        67.2
+                                PFUREG	         22        64.7
+                                RIPPLE	         11        78.6
+---------------------------------------------------
+Report for cell osc00
+   Instance path: registro/UD00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/27/2017 16:01:49
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/multiplicador8bits/multiplicador8bits; Project name: multiplicador8bits
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/multiplicador8bits/multiplicador8bits/multiplicador8bits.ldf"
+pgr_project open "C:/Users/Diego EG/Desktop/ArqPracticas/multiplicador8bits/multiplicador8bits/multiplicador8bits/multiplicador8bits.xcf"
+pgr_program run
+pgr_project save "C:/Users/Diego EG/Desktop/ArqPracticas/multiplicador8bits/multiplicador8bits/multiplicador8bits/multiplicador8bits.xcf"
+prj_project close
+#Stop recording: 9/27/2017 16:15:02

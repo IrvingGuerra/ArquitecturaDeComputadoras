@@ -1,0 +1,2 @@
+@W: CD280 :"C:\Users\Diego EG\Desktop\ArqPracticas\osc00\osc00.vhdl":13:10:13:13|Unbound component OSCC mapped to black box
+

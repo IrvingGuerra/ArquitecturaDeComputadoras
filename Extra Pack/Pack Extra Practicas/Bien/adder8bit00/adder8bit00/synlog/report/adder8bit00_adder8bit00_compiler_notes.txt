@@ -1,0 +1,13 @@
+@N|Running in 32-bit mode
+@N|Running in 32-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\topadder00.vhdl":13:7:13:16|Top entity is set to topadder00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\topadder00.vhdl":13:7:13:16|Synthesizing work.topadder00.topadder0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\xor00.vhdl":10:7:10:11|Synthesizing work.xor00.xor0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\nxor00.vhdl":10:7:10:12|Synthesizing work.nxor00.nxor0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\and00.vhdl":10:7:10:11|Synthesizing work.and00.and0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\topfa00.vhdl":11:7:11:13|Synthesizing work.topfa00.topfa0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\or00.vhdl":10:7:10:10|Synthesizing work.or00.or0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\p\Bien\adder8bit00\adder8bit00\source\topha00.vhdl":11:7:11:13|Synthesizing work.topha00.topha0.
+@N|Running in 32-bit mode
+

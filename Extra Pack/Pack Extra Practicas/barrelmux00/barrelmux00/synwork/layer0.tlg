@@ -1,0 +1,24 @@
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\topshiftL00.vhdl":7:7:7:17|Synthesizing work.topshiftl00.topshiftl0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\shiftl00.vhdl":10:7:10:14|Synthesizing work.shiftl00.shiftl0.
+Post processing for work.shiftl00.shiftl0
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\topdiv00.vhdl":11:7:11:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Diego EG\Desktop\barrelmux00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topshiftl00.topshiftl0
+@N: CL201 :"C:\Users\Diego EG\Desktop\barrelmux00\shiftl00.vhdl":26:1:26:2|Trying to extract state machine for register cont_saltos.
+Extracted state machine for register cont_saltos
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111

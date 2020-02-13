@@ -1,0 +1,12 @@
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPMUL00.vhdl":9:7:9:14|Synthesizing work.topmul00.topmul01.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPADDER01.vhdl":9:7:9:15|Synthesizing work.topadder1.topadder01.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\TOPADER0.vhdl":9:7:9:15|Synthesizing work.topadder0.topadder00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\xor.vhdl":8:7:8:10|Synthesizing work.xor0.xor00.
+Post processing for work.xor0.xor00
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\AND00.vhdl":8:7:8:10|Synthesizing work.and0.and00.
+Post processing for work.and0.and00
+Post processing for work.topadder0.topadder00
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\multiplicador8bits\multiplicador8bits\OR.vhdl":8:7:8:9|Synthesizing work.or0.or00.
+Post processing for work.or0.or00
+Post processing for work.topadder1.topadder01
+Post processing for work.topmul00.topmul01

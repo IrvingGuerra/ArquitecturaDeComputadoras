@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "barrelmux00_barrelmux00.log"
+-o "barrelmux00_barrelmux00.csv"
+-pr "barrelmux00_barrelmux00.prf"

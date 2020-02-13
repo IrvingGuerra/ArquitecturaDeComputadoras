@@ -1,0 +1,16 @@
+C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe  -osyn  "C:\Users\Diego EG\Desktop\ArqPracticas\GENERIC00\synwork\GENERIC00_GENERIC00_comp.srs"  -top  topgeneric00  -hdllog  "C:\Users\Diego EG\Desktop\ArqPracticas\GENERIC00\synlog\GENERIC00_GENERIC00_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Diego EG\Desktop\ArqPracticas\GENERIC00\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\xor00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\and00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\uc00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\packagegeneric00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\div00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\osc00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\packagediv00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\topdiv00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\topgeneric00.vhdl" 
+rc:0 success:1 runtime:7
+file:C:\Users\Diego EG\Desktop\ArqPracticas\GENERIC00\synwork\GENERIC00_GENERIC00_comp.srs|io:o|time:1511418943|size:12652|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\GENERIC00\synlog\GENERIC00_GENERIC00_compiler.srr|io:o|time:1511418943|size:3955|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\xor00.vhdl|io:i|time:1511416512|size:1010|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\and00.vhdl|io:i|time:1511416452|size:1010|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\uc00.vhdl|io:i|time:1511416620|size:880|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\packagegeneric00.vhdl|io:i|time:1511418869|size:1119|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\div00.vhdl|io:i|time:1511418759|size:1962|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\osc00.vhdl|io:i|time:1511418599|size:567|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\packagediv00.vhdl|io:i|time:1511418573|size:397|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\topdiv00.vhdl|io:i|time:1511418516|size:514|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\topgeneric00.vhdl|io:i|time:1511418922|size:1467|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1

@@ -1,0 +1,16 @@
+#Start recording tcl command: 10/2/2017 17:12:53
+#Project Location: C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00; Project name: key00
+prj_project new -name "key00" -impl "key00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/osc00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/div00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/coder00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/contring00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/packagediv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/topdiv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/packagekey00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Key00/topkey00.vhdl"
+prj_run Export -impl key00 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 10/2/2017 17:25:12

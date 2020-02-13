@@ -1,0 +1,15 @@
+#Start recording tcl command: 9/1/2017 10:37:52
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/cinco/and00; Project name: and00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/and00/and00.ldf"
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/and00/and00/and00.spf"
+prj_run Export -impl and00 -task Jedecgen
+prj_run Export -impl and00 -task Jedecgen
+prj_run Export -impl and00 -task Jedecgen
+pgr_project open "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/and00/and00/and00.xcf"
+pgr_project close
+prj_run Export -impl and00 -task Jedecgen
+prj_run Export -impl and00 -task Jedecgen
+prj_run Export -impl and00 -task Jedecgen
+prj_run Export -impl and00 -task Jedecgen
+prj_run Export -impl and00 -task Jedecgen
+#Stop recording: 9/1/2017 12:12:29

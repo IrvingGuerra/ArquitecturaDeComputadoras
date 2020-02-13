@@ -1,0 +1,83 @@
+----------------------------------------------------------------------
+Report for cell topshiftL00.topshiftl0
+
+Register bits: 48 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       28
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12       100.0
+                            FD1P3AX       15       100.0
+                            FD1P3AY        1       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       23       100.0
+                                GSR        1       100.0
+                                 IB       19       100.0
+                                 OB        9       100.0
+                           OFS1P3IX        8       100.0
+                           ORCALUT4       59       100.0
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                           shiftL00        1       100.0
+                           topdiv00        1       100.0
+                            
+                         TOTAL           162           
+----------------------------------------------------------------------
+Report for cell shiftL00.netlist
+     Instance path:  Sl011
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       15       100.0
+                            FD1P3AY        1       100.0
+                           ORCALUT4       42        71.2
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            60           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  SL00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       23       100.0
+                           ORCALUT4       16        27.1
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                VHI        1        33.3
+                                VLO        2        50.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            59           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  SL00.D01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       23       100.0
+                           ORCALUT4       16        27.1
+                              PFUMX        1       100.0
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            55           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  SL00.D00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        25.0
+                            
+                         TOTAL             2           

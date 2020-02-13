@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/1/2017 11:12:53
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/osc00; Project name: divosc00
+prj_project new -name "divosc00" -impl "divosc00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_project close
+#Stop recording: 9/1/2017 11:14:07

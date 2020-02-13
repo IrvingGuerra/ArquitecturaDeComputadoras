@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "GENERIC00_GENERIC00.log"
+-o "GENERIC00_GENERIC00.csv"
+-pr "GENERIC00_GENERIC00.prf"

@@ -1,0 +1,11 @@
+#Start recording tcl command: 9/1/2017 10:46:22
+#Project Location: C:/Users/Diego EG/Desktop/ArqPracticas/osc00; Project name: osc00
+prj_project open "C:/Users/Diego EG/Desktop/ArqPracticas/osc00/osc00.ldf"
+prj_run Synthesis -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+prj_run Export -impl osc00 -task Jedecgen
+prj_run Translate -impl osc00
+prj_src add "C:/Users/Diego EG/Desktop/ArqPracticas/cinco/nor00/nor00/._Real_._Math_.vhd"
+prj_project save
+prj_project close
+#Stop recording: 9/1/2017 11:22:45

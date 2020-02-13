@@ -1,0 +1,138 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn170222133521"></A><B><U><big>pn170222133521</big></U></B>
+#Start recording tcl command: 2/22/2017 13:34:19
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+prj_project close
+#Stop recording: 2/22/2017 13:35:21
+
+
+
+<A name="pn170223105330"></A><B><U><big>pn170223105330</big></U></B>
+#Start recording tcl command: 2/23/2017 10:41:27
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+#Stop recording: 2/23/2017 10:53:30
+
+
+
+<A name="pn170223125055"></A><B><U><big>pn170223125055</big></U></B>
+#Start recording tcl command: 2/23/2017 11:32:30
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/packageosc00.vhd"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/toposc00.vhd"
+prj_project save
+prj_project close
+#Stop recording: 2/23/2017 12:50:55
+
+
+
+<A name="pn170227113205"></A><B><U><big>pn170227113205</big></U></B>
+#Start recording tcl command: 2/27/2017 10:46:17
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+prj_run Synthesis -impl osc00
+prj_project close
+#Stop recording: 2/27/2017 11:32:05
+
+
+
+<A name="pn170227214254"></A><B><U><big>pn170227214254</big></U></B>
+#Start recording tcl command: 2/27/2017 19:11:29
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00; Project name: osc00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.ldf"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.vhd"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/div00.vhd"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/packageosc00.vhd"
+prj_src remove "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/toposc00.vhd"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00.vhdl"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/div00.vhdl"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/packageosc00.vhdl"
+prj_src add "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/toposc00.vhdl"
+prj_run Synthesis -impl osc00
+prj_run Translate -impl osc00
+prj_run Map -impl osc00
+prj_run PAR -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+prj_run Map -impl osc00
+prj_run PAR -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_src add -exclude "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_src enable "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_dev set -part LCMXO2-7000HE-5TG144C
+pgr_project close
+prj_run Synthesis -impl osc00
+prj_run Map -impl osc00
+prj_run PAR -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+pgr_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/osc00/osc00/osc00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 2/27/2017 21:42:54
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>
