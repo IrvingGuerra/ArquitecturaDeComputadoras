@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe  -osyn  "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\synwork\rom00_rom00_comp.srs"  -top  toprom00  -hdllog  "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\synlog\rom00_rom00_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\div00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\packagediv00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\contReadRo00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\packagerom00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\osc00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\toposc00.vhdl" -lib work "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\toprom00.vhdl" 
+rc:0 success:1 runtime:4
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\synwork\rom00_rom00_comp.srs|io:o|time:1510373101|size:8106|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\synlog\rom00_rom00_compiler.srr|io:o|time:1510373101|size:4585|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\div00.vhdl|io:i|time:1508811932|size:1829|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\packagediv00.vhdl|io:i|time:1508811932|size:407|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\contReadRo00.vhdl|io:i|time:1509684870|size:753|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00.vhdl|io:i|time:1509765560|size:1194|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\packagerom00.vhdl|io:i|time:1508824228|size:697|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\osc00.vhdl|io:i|time:1508812638|size:451|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\toposc00.vhdl|io:i|time:1508811932|size:530|exec:0
+file:C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\toprom00.vhdl|io:i|time:1508824244|size:944|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1

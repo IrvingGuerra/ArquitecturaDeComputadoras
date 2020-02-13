@@ -1,0 +1,6 @@
+@W: CG296 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":19:8:19:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":25:10:25:12|Referenced variable rwm is not in sensitivity list.
+@W: CG290 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":21:9:21:15|Referenced variable enablem is not in sensitivity list.
+@W: CL279 :"C:\Users\Diego EG\Desktop\RAM\contring00.vhdl":19:4:19:5|Pruning register bits 2 to 0 of soutr(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

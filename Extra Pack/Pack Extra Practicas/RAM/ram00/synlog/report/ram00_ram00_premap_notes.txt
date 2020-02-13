@@ -1,0 +1,2 @@
+@N: MF249 |Running in 32-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)

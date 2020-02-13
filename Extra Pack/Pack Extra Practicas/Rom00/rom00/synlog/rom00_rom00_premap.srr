@@ -1,0 +1,63 @@
+# Fri Nov 10 22:05:05 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:06:13
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\rom00_rom00_scck.rpt 
+Printing clock  summary report in "C:\Users\Diego EG\Desktop\ArqPracticas\Rom00\rom00\rom00_rom00_scck.rpt" file 
+@N: MF249 |Running in 32-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 65MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 65MB peak: 67MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toprom00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+
+
+Clock Summary
+*****************
+
+Start                            Requested     Requested     Clock                                           Clock                   Clock
+Clock                            Frequency     Period        Type                                            Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------
+div00|outdiv_derived_clock       2.1 MHz       480.769       derived (from osc00|OSC_INT_inferred_clock)     Inferred_clkgroup_0     11   
+osc00|OSC_INT_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     25   
+==========================================================================================================================================
+
+@W: MT529 :"c:\users\diego eg\desktop\arqpracticas\rom00\div00.vhdl":20:4:20:5|Found inferred clock osc00|OSC_INT_inferred_clock which controls 25 sequential elements including RO00.D01.sdiv[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 85MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 39MB peak: 85MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Fri Nov 10 22:05:09 2017
+
+###########################################################]

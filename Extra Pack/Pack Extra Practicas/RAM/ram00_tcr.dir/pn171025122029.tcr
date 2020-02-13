@@ -1,0 +1,19 @@
+#Start recording tcl command: 10/25/2017 10:45:41
+#Project Location: C:/Users/Diego EG/Desktop/RAM; Project name: ram00
+prj_project new -name "ram00" -impl "ram00" -dev LCMXO2-7000HE-4BG256C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Diego EG/Desktop/RAM/div00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/osc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/packagediv00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/toposc00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/contring00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/coder00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/ram00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/muxra00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/contReadRa.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/packageram00.vhdl"
+prj_src add "C:/Users/Diego EG/Desktop/RAM/topram00.vhdl"
+prj_run Synthesis -impl ram00
+prj_run Export -impl ram00 -task Jedecgen
+prj_run Export -impl ram00 -task Jedecgen
+#Stop recording: 10/25/2017 12:20:29

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="testBCD" device="LCMXO2-7000HE-5TG144C" default_implementation="testBCD">
+    <Options/>
+    <Implementation title="testBCD" dir="testBCD" description="testBCD" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="test00"/>
+        <Source name="tes00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="test00"/>
+        </Source>
+        <Source name="testBCD.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="testBCD/testBCD.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="testBCD1.sty"/>
+</BaliProject>

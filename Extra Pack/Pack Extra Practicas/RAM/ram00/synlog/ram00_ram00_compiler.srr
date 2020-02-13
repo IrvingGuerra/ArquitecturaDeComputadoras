@@ -1,0 +1,90 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\RAM\topram00.vhdl":9:7:9:14|Top entity is set to topram00.
+File C:\lscc\diamond\3.9\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\osc00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\packagediv00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\contring00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\coder00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\ram00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\contReadRa.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\packageram00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\toposc00.vhdl changed - recompiling
+File C:\Users\Diego EG\Desktop\RAM\topram00.vhdl changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\topram00.vhdl":9:7:9:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\contReadRa.vhdl":8:7:8:18|Synthesizing work.contreadra00.contreadra0.
+@N: CD364 :"C:\Users\Diego EG\Desktop\RAM\contReadRa.vhdl":33:8:33:17|Removing redundant assignment.
+Post processing for work.contreadra00.contreadra0
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":8:7:8:13|Synthesizing work.muxra00.muxra0.
+@W: CG296 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":19:8:19:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":25:10:25:12|Referenced variable rwm is not in sensitivity list.
+@W: CG290 :"C:\Users\Diego EG\Desktop\RAM\muxra00.vhdl":21:9:21:15|Referenced variable enablem is not in sensitivity list.
+Post processing for work.muxra00.muxra0
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\ram00.vhdl":8:7:8:11|Synthesizing work.ram00.ram0.
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\Diego EG\Desktop\RAM\ram00.vhdl":22:7:22:13|Found RAM wordram, depth=32, width=7
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\Diego EG\Desktop\RAM\coder00.vhdl":35:4:35:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\Diego EG\Desktop\RAM\coder00.vhdl":42:4:42:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\Diego EG\Desktop\RAM\coder00.vhdl":78:4:78:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\Diego EG\Desktop\RAM\coder00.vhdl":114:4:114:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\Diego EG\Desktop\RAM\coder00.vhdl":150:4:150:13|Removing redundant assignment.
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\Diego EG\Desktop\RAM\contring00.vhdl":19:4:19:5|Pruning register bits 2 to 0 of soutr(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Diego EG\Desktop\RAM\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topram00.topram0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 40MB peak: 41MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 27 16:11:47 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 32-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 27 16:11:47 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 3MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 27 16:11:47 2017
+
+###########################################################]

@@ -1,0 +1,8 @@
+@N|Running in 32-bit mode
+@N|Running in 32-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Diego EG\Desktop\ArqPracticas\testBCD\tes00.vhdl":6:7:6:12|Top entity is set to test00.
+@N: CD630 :"C:\Users\Diego EG\Desktop\ArqPracticas\testBCD\tes00.vhdl":6:7:6:12|Synthesizing work.test00.test0.
+@N: CL159 :"C:\Users\Diego EG\Desktop\ArqPracticas\testBCD\tes00.vhdl":8:6:8:9|Input BCDI is unused.
+@N|Running in 32-bit mode
+

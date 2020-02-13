@@ -1,0 +1,59 @@
+---------------------------------------------------
+Report for cell toprom00
+   Instance path: toprom00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.00        100.0
+                                 IOLGC	       7.00        100.0
+                                  LUT4	      30.00        100.0
+                                 IOREG	          7        100.0
+                                 IOBUF	         22        100.0
+                                PFUREG	         29        100.0
+                                RIPPLE	         13        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              toposc00	          1        76.8
+                                 rom00	          1        12.5
+                          contReadRo00	          1         7.1
+---------------------------------------------------
+Report for cell rom00
+   Instance path: toprom00/RO02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.50        12.5
+                                  LUT4	       7.00        23.3
+---------------------------------------------------
+Report for cell contReadRo00
+   Instance path: toprom00/RO01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         7.1
+                                  LUT4	       4.00        13.3
+                                PFUREG	          4        13.8
+---------------------------------------------------
+Report for cell toposc00
+   Instance path: toprom00/RO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.50        76.8
+                                  LUT4	      17.00        56.7
+                                PFUREG	         25        86.2
+                                RIPPLE	         13        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        76.8
+---------------------------------------------------
+Report for cell div00
+   Instance path: toprom00/RO00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.50        76.8
+                                  LUT4	      17.00        56.7
+                                PFUREG	         25        86.2
+                                RIPPLE	         13        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: toprom00/RO00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

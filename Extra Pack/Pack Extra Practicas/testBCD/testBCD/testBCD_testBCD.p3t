@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "testBCD_testBCD.log"
+-o "testBCD_testBCD.csv"
+-pr "testBCD_testBCD.prf"

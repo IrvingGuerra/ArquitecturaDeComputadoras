@@ -1,0 +1,411 @@
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "ram00_ram00.ngd" -o "ram00_ram00_map.ncd" -pr "ram00_ram00.prf" -mp "ram00_ram00.mrp" -lpf "C:/Users/Diego EG/Desktop/RAM/ram00/ram00_ram00_synplify.lpf" -lpf "C:/Users/Diego EG/Desktop/RAM/ram00.lpf" -c 0            
+map:  version Diamond Version 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: ram00_ram00.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 4.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:     59 out of  7209 (1%)
+      PFU registers:           59 out of  6864 (1%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        77 out of  3432 (2%)
+      SLICEs as Logic/ROM:     65 out of  3432 (2%)
+      SLICEs as RAM:           12 out of  2574 (0%)
+      SLICEs as Carry:         17 out of  3432 (0%)
+   Number of LUT4s:        154 out of  6864 (2%)
+      Number used as logic LUTs:         96
+      Number used as distributed RAM:    24
+      Number used as ripple logic:       34
+      Number used as shift registers:     0
+   Number of PIO sites used: 42 + 4(JTAG) out of 115 (40%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  2
+     Net RA00.D01.outdiv_i: 8 loads, 8 rising, 0 falling (Driver: RA00/D01/outdiv )
+     Net RA00.sclk_0: 36 loads, 36 rising, 0 falling (Driver: RA00/D00/OSCInst0 )
+   Number of Clock Enables:  8
+     Net un1_outdiv_1_sqmuxa_i_RNI7BR8: 8 loads, 8 LSLICEs
+     Net un1_outdiv_1_sqmuxa_i_RNIV3Q21: 4 loads, 4 LSLICEs
+     Net RA02/un1_enablecd_2_0_RNIH7Q34: 4 loads, 4 LSLICEs
+     Net RA02/aux0_RNO: 1 loads, 1 LSLICEs
+     Net RA02/outFlagcd_RNO: 1 loads, 1 LSLICEs
+     Net RA02/aux3_RNO: 1 loads, 1 LSLICEs
+     Net RA02/aux2_RNO: 1 loads, 1 LSLICEs
+     Net RA02/aux1_RNO: 1 loads, 1 LSLICEs
+   Number of LSRs:  7
+     Net RA05/outcontRrd_40: 3 loads, 3 LSLICEs
+     Net RA03/outwordra_42: 4 loads, 4 LSLICEs
+     Net RA02/outcodercd_38: 4 loads, 4 LSLICEs
+     Net un1_outdiv_1_sqmuxa_i_RNIIHNJ: 4 loads, 4 LSLICEs
+     Net RA01/fb: 1 loads, 1 LSLICEs
+     Net RA01/outcr_45: 2 loads, 2 LSLICEs
+     Net RA00/D01/N_6_i: 13 loads, 13 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net enable0_c: 22 loads
+     Net outcontR0_c[0]: 20 loads
+     Net outcontR0_c[1]: 19 loads
+     Net outcontR0_c[2]: 19 loads
+     Net rw0_c: 19 loads
+     Net outcontR0_c[3]: 18 loads
+     Net outcrK0_c[1]: 18 loads
+     Net outcrK0_c[2]: 18 loads
+     Net inkey0_c[1]: 15 loads
+     Net outcrK0_c[3]: 14 loads
+ 
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 50 MB
+
+Dumping design to file ram00_ram00_map.ncd.
+
+mpartrce -p "ram00_ram00.p2t" -f "ram00_ram00.p3t" -tf "ram00_ram00.pt" "ram00_ram00_map.ncd" "ram00_ram00.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "ram00_ram00_map.ncd"
+Fri Oct 27 16:27:11 2017
+
+PAR: Place And Route Diamond Version 3.9.0.99.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "C:/Users/Diego EG/Desktop/RAM/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF ram00_ram00_map.ncd ram00_ram00.dir/5_1.ncd ram00_ram00.prf
+Preference file: ram00_ram00.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file ram00_ram00_map.ncd.
+Design name: topram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   42+4(JTAG)/336     14% used
+                  42+4(JTAG)/115     40% bonded
+
+   SLICE             77/3432          2% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 250
+Number of Connections: 706
+
+Pin Constraint Summary:
+   38 out of 42 pins locked (90% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    RA00.sclk_0 (driver: RA00/D00/OSCInst0, clk load #: 36)
+
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    RA00.D01.outdiv_i (driver: SLICE_29, clk load #: 8, sr load #: 0, ce load #: 0)
+    RA00/D01/N_6_i (driver: RA00/D01/SLICE_54, clk load #: 0, sr load #: 13, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+............
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 63806.
+Finished Placer Phase 1.  REAL time: 10 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  63737
+Finished Placer Phase 2.  REAL time: 10 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "RA00.sclk_0" from OSC on comp "RA00/D00/OSCInst0" on site "OSC", clk load = 36
+  SECONDARY "RA00.D01.outdiv_i" from Q0 on comp "SLICE_29" on site "R14C18B", clk load = 8, ce load = 0, sr load = 0
+  SECONDARY "RA00/D01/N_6_i" from F0 on comp "RA00/D01/SLICE_54" on site "R14C18D", clk load = 0, ce load = 0, sr load = 13
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   42 + 4(JTAG) out of 336 (13.7%) PIO sites used.
+   42 + 4(JTAG) out of 115 (40.0%) bonded PIO sites used.
+   Number of PIO comps: 42; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 19 / 28 ( 67%) | 2.5V       | -         |
+| 1        | 0 / 29 (  0%)  | -          | -         |
+| 2        | 11 / 29 ( 37%) | 2.5V       | -         |
+| 3        | 4 / 9 ( 44%)   | 2.5V       | -         |
+| 4        | 0 / 10 (  0%)  | -          | -         |
+| 5        | 8 / 10 ( 80%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 9 secs 
+
+Dumping design to file ram00_ram00.dir/5_1.ncd.
+
+0 connections routed; 706 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 12 secs 
+
+Start NBR router at 16:27:23 10/27/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 16:27:23 10/27/17
+
+Start NBR section for initial routing at 16:27:23 10/27/17
+Level 4, iteration 1
+20(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 470.306ns/0.000ns; real time: 12 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 16:27:23 10/27/17
+Level 4, iteration 1
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 470.200ns/0.000ns; real time: 13 secs 
+Level 4, iteration 2
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.669ns/0.000ns; real time: 13 secs 
+Level 4, iteration 3
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.669ns/0.000ns; real time: 13 secs 
+Level 4, iteration 4
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.669ns/0.000ns; real time: 13 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 16:27:24 10/27/17
+
+Start NBR section for re-routing at 16:27:24 10/27/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.669ns/0.000ns; real time: 13 secs 
+
+Start NBR section for post-routing at 16:27:24 10/27/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 469.669ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 12 secs 
+Total REAL time: 13 secs 
+Completely routed.
+End of route.  706 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file ram00_ram00.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 469.669
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.306
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 12 secs 
+Total REAL time to completion: 14 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "ram00_ram00.t2b" -w "ram00_ram00.ncd" -jedec "ram00_ram00.prf"
+
+
+BITGEN: Bitstream Generator Diamond Version 3.9.0.99.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file ram00_ram00.ncd.
+Design name: topram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from ram00_ram00.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "ram00_ram00.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 
